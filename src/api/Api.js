@@ -1,7 +1,5 @@
 import axios from "axios";
 import NProgress from "nprogress";
-import store from "@/store";
-// import router from "@/router/router";
 
 let theBaseUrl = ''
 if (process.env.NODE_ENV == 'development') {
@@ -11,11 +9,11 @@ if (process.env.NODE_ENV == 'development') {
 }
 const Api = axios.create({
   baseURL: theBaseUrl,
+  // baseURL: "http://localhost/web_app/public/api",
   withCredentials: false,
   headers: {
     Accept: "application/json",
     "Content-type": "application/json",
-    "Access-Control-Allow-Origin": "true"
   },
 });
 
@@ -45,16 +43,7 @@ const progressFns = () => {
 const { start: progressStart, stop: progressStop } = progressFns();
 
 Api.interceptors.request.use(
-  async (config) => {
-    let hasToken = await store.getters["auth/token"];
-
-    if (hasToken) {
-      config.headers["Authorization"] = `Bearer ${hasToken}`;
-    }
-    // else {
-    //   router.push({ name: "Login" });
-    // }
-
+  (config) => {
     if (!config.__noProgress) progressStart();
 
     return config;
@@ -75,22 +64,8 @@ Api.interceptors.response.use(
   (error) => {
     progressStop();
 
-    // const FORBIDDEN = 403;
-    // const { status } = error.response;
-    // if (status === FORBIDDEN) {
-    //   router.push({ name: "Login" });
-    // }
-    // const UNAUTHORIZED = 401;
-    // const { status } = error.response;
-    // if (status === UNAUTHORIZED) {
-    //   router.push({ name: "Login" });
-    // }
-
-    console.log(error.response.statusText);
-
     return Promise.reject(error);
   }
 );
 
 export default Api;
-

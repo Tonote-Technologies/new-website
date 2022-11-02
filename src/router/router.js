@@ -16,6 +16,18 @@ const AdminDashboard = () =>
   import(
     /* webpackChunkName: "admin-dashboard" */ "@/components/Admin/AdminDashboard.vue"
   );
+const LoginPage = () =>
+  import(
+    /* webpackChunkName: "admin-dashboard" */ "@/components/Admin/Auth/LoginPage.vue"
+  );
+const RegisterPage = () =>
+  import(
+    /* webpackChunkName: "admin-dashboard" */ "@/components/Admin/Auth/RegisterPage.vue"
+  );
+const ForgotPassword = () =>
+  import(
+    /* webpackChunkName: "admin-dashboard" */ "@/components/Admin/Auth/ForgotPassword.vue"
+  );
 
 const BlogCategories = () =>
   import(
@@ -121,6 +133,7 @@ const routes = [
           ],
         },
       },
+      
       {
         path: "category",
         name: "admin.category",
@@ -149,6 +162,64 @@ const routes = [
         },
       },
     ],
+  },
+
+  {
+    path: "/login",
+    name: "Login",
+    component: LoginPage,
+    meta: {
+      title: "Login | ToNote",
+      transitionName: "slide",
+      metaTags: [
+        {
+          name: "description",
+          content: "The blog page of ToNote.",
+        },
+        {
+          property: "og:description",
+          content: "The blog page of ToNote.",
+        },
+      ],
+    },
+  },
+  {
+    path: "/register",
+    name: "Register",
+    component: RegisterPage,
+    meta: {
+      title: "Register | ToNote",
+      transitionName: "slide",
+      metaTags: [
+        {
+          name: "description",
+          content: "The blog page of ToNote.",
+        },
+        {
+          property: "og:description",
+          content: "The blog page of ToNote.",
+        },
+      ],
+    },
+  },
+  {
+    path: "/forgot-password",
+    name: "ForgotPassword",
+    component: ForgotPassword,
+    meta: {
+      title: "ForgotPassword | ToNote",
+      transitionName: "slide",
+      metaTags: [
+        {
+          name: "description",
+          content: "The blog page of ToNote.",
+        },
+        {
+          property: "og:description",
+          content: "The blog page of ToNote.",
+        },
+      ],
+    },
   },
 
   {
