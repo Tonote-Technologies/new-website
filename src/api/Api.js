@@ -12,7 +12,6 @@ const Api = axios.create({
   withCredentials: false,
   // headers: { "Access-Control-Allow-Origin": "*" },
   headers: {
-    "Access-Control-Allow-Origin": "*",
     Accept: "application/json",
     "Content-type": "application/json",
   },
