@@ -61,7 +61,7 @@ const register = () => {
       first_name: first_name.value,
       last_name: last_name.value,
     };
-    console.log(formObj);
+    // console.log(formObj);
     Api.post("auth/register.php", formObj).then((response) => {
       console.log(response);
     });

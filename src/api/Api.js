@@ -9,12 +9,14 @@ if (process.env.NODE_ENV == 'development') {
 }
 const Api = axios.create({
   baseURL: theBaseUrl,
-  // baseURL: "http://localhost/web_app/public/api",
   withCredentials: false,
+  // headers: { "Access-Control-Allow-Origin": "*" },
   headers: {
+    "Access-Control-Allow-Origin": "*",
     Accept: "application/json",
     "Content-type": "application/json",
   },
+
 });
 
 const progressFns = () => {
