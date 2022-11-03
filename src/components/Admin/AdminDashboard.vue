@@ -63,87 +63,99 @@
                     style="height: 100%; overflow: scroll"
                   >
                     <div class="simplebar-content" style="padding: 0px">
-                      <table class="table table-center bg-white mb-0">
-                        <thead>
-                          <tr>
-                            <th class="border-bottom p-3">No.</th>
-                            <th
-                              class="border-bottom p-3"
-                              style="min-width: 220px"
-                            >
-                              Title
-                            </th>
-                            <th class="text-center border-bottom p-3">
-                              Caveat
-                            </th>
-                            <th
-                              class="text-center border-bottom p-3"
-                              style="min-width: 150px"
-                            >
-                              Category
-                            </th>
-                            <th class="text-center border-bottom p-3">
-                              Status
-                            </th>
-                            <th
-                              class="text-end border-bottom p-3"
-                              style="min-width: 100px"
-                            >
-                              Preview
-                            </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th class="p-3">1</th>
-                            <td class="p-3">
-                              <div
-                                class="text-truncate"
+                      <div class="table-responsive">
+                        <!-- <table class="table table-center bg-white mb-0"> -->
+                        <!-- {{ blogsData }} -->
+                        <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th class="border-bottom p-3">No.</th>
+                              <th
+                                class="border-bottom p-3"
+                                style="min-width: 220px"
+                              >
+                                Title
+                              </th>
+                              <th class="border-bottom p-3">Caveat</th>
+                              <th
+                                class="border-bottom p-3"
+                                style="min-width: 250px"
+                              >
+                                Category
+                              </th>
+                              <th class="border-bottom p-3">Status</th>
+                              <th>created_at</th>
+                              <th
+                                class="text-end border-bottom p-3"
+                                style="min-width: 100px"
+                              >
+                                Action
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr v-for="(blog, index) in blogsData" :key="index">
+                              <th class="p-3">{{ index + 1 }}</th>
+                              <td class="p-3">
+                                <div
+                                  class="text-truncate"
+                                  style="max-width: 100px"
+                                >
+                                  <a href="#" class="text-primary">
+                                    <div class="d-flex align-items-center">
+                                      <img
+                                        :src="blog.file"
+                                        class="avatar avatar-ex-small rounded-circle shadow"
+                                        alt=""
+                                      />
+                                      <span class="ms-2">{{ blog.title }}</span>
+                                    </div>
+                                  </a>
+                                </div>
+                              </td>
+                              <td
+                                class="p-3 text-truncate"
                                 style="max-width: 200px"
                               >
-                                <a href="#" class="text-primary">
-                                  <div class="d-flex align-items-center">
-                                    <img
-                                      src="assets/images/client/01.jpg"
-                                      class="avatar avatar-ex-small rounded-circle shadow"
-                                      alt=""
-                                    />
-                                    <span class="ms-2"
-                                      >Explaining how ToNote for Businesses
-                                      works</span
-                                    >
-                                  </div>
-                                </a>
-                              </div>
-                            </td>
-                            <td
-                              class="text-center p-3 text-truncate"
-                              style="max-width: 200px"
-                            >
-                              Today, we help people sign, notarise, verify and
-                              manage documents, fully online. By making these
-                              everyday activities easier, we encourage digital
-                              transformation across personal and business
-                              functions.
-                            </td>
-                            <td class="text-center p-3">23th Sept 2021</td>
-                            <td class="text-center p-3">
-                              <div
-                                class="badge bg-soft-danger rounded px-3 py-1"
+                                {{ blog.excerpt }}
+                              </td>
+                              <td class="p-3">
+                                {{ blog.category }}
+                              </td>
+                              <td class="text-center p-3">
+                                <div
+                                  class="badge rounded px-3 py-1"
+                                  :class="[
+                                    blog.status == 'draft'
+                                      ? 'bg-soft-danger'
+                                      : 'bg-soft-success',
+                                  ]"
+                                >
+                                  {{ blog.status }}
+                                </div>
+                              </td>
+                              <td>{{ dateTime(blog.created_at) }}</td>
+                              <td
+                                class="p-3 d-flex justify-content-center align-item-center"
                               >
-                                Draft
-                              </div>
-                            </td>
-                            <td class="text-end p-3">
-                              <a
-                                href="invoice.html"
-                                class="btn btn-sm btn-primary"
-                                >Preview</a
-                              >
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
+                                <button class="btn btn-sm btn-primary me-1">
+                                  <Icon icon="icon-park-outline:preview-open" />
+                                </button>
+                                <router-link
+                                  :to="{
+                                    name: 'admin.edit',
+
+                                    params: { blog_id: blog.docId },
+                                  }"
+                                  class="btn btn-sm btn-outline-primary"
+                                >
+                                  <Icon icon="icon-park-outline:edit" />
+                                </router-link>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -186,6 +198,46 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref, onMounted } from "vue";
+import { collection, onSnapshot } from "firebase/firestore";
+import { db } from "@/firebase";
+import moment from "moment";
+import { Icon } from "@iconify/vue";
+
+// import { useActions } from "vuex-composition-helpers/dist";
+
+// const { getUserDocument } = useActions({
+//   getUserDocument: "/create",
+// });
+
+const blogsData = ref([]);
+
+const dateTime = (value) => {
+  return moment(value).format("Do MMM YYYY, HH:mm A");
+};
+
+onMounted(() => {
+  onSnapshot(collection(db, "blogPost"), (querySnapshot) => {
+    const dataBlogs = [];
+
+    querySnapshot.forEach((doc) => {
+      // console.log(doc.id);
+      const blogObj = {
+        docId: doc.id,
+        title: doc.data().title,
+        category: doc.data().category,
+        excerpt: doc.data().excerpt,
+        content: doc.data().content,
+        status: doc.data().status,
+        file: doc.data().file,
+        created_at: doc.data().created_at,
+      };
+      dataBlogs.push(blogObj);
+    });
+    blogsData.value = dataBlogs;
+  });
+});
+</script>
 
 <style scoped></style>

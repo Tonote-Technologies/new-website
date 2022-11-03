@@ -71,15 +71,15 @@
             </div>
           </section>
           <div class="row">
-            <div v-for="(item, index) in 8" :key="index">
+            <div v-for="(item, index) in blogsData" :key="index">
               <div class="ms-3">
                 <div class="d-flex align-items-center">
                   <!-- <a class="pe-3" href="#"> AS </a> -->
                   <div class="commentor-detail">
                     <div class="d-flex justify-content-around">
-                      <small class="text-muted"
-                        >15th August, 2021 at 01:25 pm</small
-                      >
+                      <small class="text-muted">{{
+                        dateTime(item.created_at)
+                      }}</small>
                     </div>
                   </div>
                 </div>
@@ -89,25 +89,30 @@
                   <a
                     href="javascript:void(0)"
                     class="d-block title text-dark h4"
-                    >Explaining how ToNote for Businesses works</a
+                    >{{ item.title }}</a
                   >
                   <p class="esept" style="padding-right: 4rem">
-                    Today, we help people sign, notarise, verify and manage
-                    documents, fully online. By making these everyday activities
-                    easier, we encourage digital transformation across personal
-                    and business functions.
+                    {{ item.excerpt }}
                   </p>
                   <div class="d-inline">
-                    <span class="btn btn-light rounded-pill">Business</span>
-                    <span class="text-muted"> 3 min read</span>
+                    <span class="btn btn-light rounded-pill">{{
+                      item.category
+                    }}</span>
+                    <!-- <span class="text-muted"> 3 min read</span> -->
                   </div>
                 </div>
                 <img
+                  :src="item.file"
+                  class="avatar avatar-large rounded"
+                  style="width: 176px"
+                  :alt="item.title"
+                />
+                <!-- <img
                   src="/assets/images/blog/blog-2.png"
                   class="avatar avatar-large rounded"
-                  style="width: auto"
+                  style="width: 176px; height:140px"
                   alt=""
-                />
+                /> -->
               </div>
             </div>
 
@@ -154,157 +159,48 @@
                 </span>
               </div>
 
-              <div v-for="(item, index) in 2" :key="index">
+              <div v-for="(item, index) in blogsData" :key="index">
                 <div class="widget mt-4">
                   <div
                     class="card blog blog-primary rounded border-0 shadow overflow-hidden"
                   >
-                    <div class="position-relative">
+                    <div class="position-relative text-center">
                       <img
-                        :src="`/assets/images/blog/blog-` + item + `.png`"
-                        class="card-img-top"
-                        alt="Blog"
+                        :src="item.file"
+                        class="avatar avatar-large rounded"
+                        style="width: 176px"
+                        :alt="item.title"
                       />
                       <div class="overlay rounded-top"></div>
                     </div>
                     <div class="card-body content">
-                      <h6>
+                      <h6 class="text-truncate" style="width: 200px">
                         <a
                           href="javascript:void(0)"
                           class="card-title title text-dark"
-                          >How apps is changing the IT world</a
+                          >{{ item.title }}</a
                         >
                       </h6>
                       <div
                         class="post-meta d-flex justify-content-between mt-3"
                       >
                         <ul class="list-unstyled mb-0">
-                          <li class="list-inline-item me-2 mb-0">
+                          <li class="list-inline-item mb-0">
                             <a href="javascript:void(0)" class="text-muted like"
-                              ><i class="uil uil-folder me-1"></i>
-                              Notarisation</a
+                              ><i class="uil uil-folder"></i> Notarisation</a
                             >
                           </li>
                         </ul>
-                        <a href="blog-detail.html" class="text-muted readmore">
-                          <i class="uil uil-clock align-middle me-1"></i>Over a
-                          week
+                        <a href="#" class="text-muted readmore">
+                          <i class="uil uil-clock align-middle"></i>Over a week
                         </a>
                       </div>
-                      <p class="esept">
-                        Today, we help people sign, notarise, verify and manage
-                        documents, fully online.
+                      <p class="esept text-trunncate" style="width: 200px">
+                        {{ item.excerpt }}
                       </p>
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="widget mt-4">
-                <span
-                  class="bg-light d-block py-2 rounded shadow text-center h6 mb-0"
-                >
-                  Tagclouds
-                </span>
-
-                <div class="tagcloud text-center mt-4">
-                  <a href="jvascript:void(0)" class="rounded">Business</a>
-                  <a href="jvascript:void(0)" class="rounded">Finance</a>
-                  <a href="jvascript:void(0)" class="rounded">Marketing</a>
-                  <a href="jvascript:void(0)" class="rounded">Fashion</a>
-                  <a href="jvascript:void(0)" class="rounded">Bride</a>
-                  <a href="jvascript:void(0)" class="rounded">Lifestyle</a>
-                  <a href="jvascript:void(0)" class="rounded">Travel</a>
-                  <a href="jvascript:void(0)" class="rounded">Beauty</a>
-                  <a href="jvascript:void(0)" class="rounded">Video</a>
-                  <a href="jvascript:void(0)" class="rounded">Audio</a>
-                </div>
-              </div>
-
-              <div class="widget mt-4">
-                <span
-                  class="bg-light d-block py-2 rounded shadow text-center h6 mb-0"
-                >
-                  Social Media
-                </span>
-
-                <ul
-                  class="list-unstyled social-icon social text-center mb-0 mt-4"
-                >
-                  <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="rounded"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="feather feather-instagram fea icon-sm fea-social"
-                      >
-                        <rect
-                          x="2"
-                          y="2"
-                          width="20"
-                          height="20"
-                          rx="5"
-                          ry="5"
-                        ></rect>
-                        <path
-                          d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
-                        ></path>
-                        <line
-                          x1="17.5"
-                          y1="6.5"
-                          x2="17.51"
-                          y2="6.5"
-                        ></line></svg
-                    ></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="rounded"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="feather feather-twitter fea icon-sm fea-social"
-                      >
-                        <path
-                          d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
-                        ></path></svg
-                    ></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="javascript:void(0)" class="rounded"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="feather feather-linkedin fea icon-sm fea-social"
-                      >
-                        <path
-                          d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
-                        ></path>
-                        <rect x="2" y="9" width="4" height="12"></rect>
-                        <circle cx="4" cy="4" r="2"></circle></svg
-                    ></a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -314,6 +210,47 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref, onMounted } from "vue";
+import { collection, onSnapshot } from "firebase/firestore";
+import { db } from "@/firebase";
+import moment from "moment";
+// import { Icon } from "@iconify/vue";
+
+// import { useActions } from "vuex-composition-helpers/dist";
+
+// const { getUserDocument } = useActions({
+//   getUserDocument: "/create",
+// });
+
+const blogsData = ref([]);
+
+const dateTime = (value) => {
+  return moment(value).format("Do MMM YYYY, HH:mm A");
+};
+
+onMounted(() => {
+  onSnapshot(collection(db, "blogPost"), (querySnapshot) => {
+    const dataBlogs = [];
+
+    querySnapshot.forEach((doc) => {
+      // console.log(doc.id);
+      const blogObj = {
+        docId: doc.id,
+        title: doc.data().title,
+        category: doc.data().category,
+        excerpt: doc.data().excerpt,
+        content: doc.data().content,
+        status: doc.data().status,
+        file: doc.data().file,
+        created_at: doc.data().created_at,
+      };
+      dataBlogs.push(blogObj);
+    });
+    blogsData.value = dataBlogs;
+    console.log(blogsData.value);
+  });
+});
+</script>
 
 <style scoped></style>

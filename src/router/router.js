@@ -34,9 +34,14 @@ const BlogCategories = () =>
     /* webpackChunkName: "blog-categories" */ "@/components/Admin/Blog/BlogCategories.vue"
   );
 
-const BlogCreateCategory = () =>
+const BlogCreate = () =>
   import(
     /* webpackChunkName: "create-category" */ "@/components/Admin/Blog/BlogCreate.vue"
+  );
+
+const BlogEdit = () =>
+  import(
+    /* webpackChunkName: "Edit-blog" */ "@/components/Admin/Blog/BlogEdit.vue"
   );
 
 const HomePage = () =>
@@ -133,7 +138,7 @@ const routes = [
           ],
         },
       },
-      
+
       {
         path: "category",
         name: "admin.category",
@@ -156,9 +161,27 @@ const routes = [
       {
         path: "create",
         name: "admin.create",
-        component: BlogCreateCategory,
+        component: BlogCreate,
         meta: {
           title: "Create Category | ToNote",
+        },
+      },
+      {
+        path: "edit/:blog_id",
+        name: "admin.edit",
+        component: BlogEdit,
+        meta: {
+          title: "Edit Blog | ToNote",
+          metaTags: [
+            {
+              name: "description",
+              content: "The Blog edit page of ToNote.",
+            },
+            {
+              property: "og:description",
+              content: "The Blog edit page of ToNote.",
+            },
+          ],
         },
       },
     ],

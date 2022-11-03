@@ -25,8 +25,8 @@ import AdminFooter from "@/components/Admin/AdminFooter.vue";
 
 <script>
 // import firebaseApp from "../firebase/firebaseinit";
-import firebaseApp from "firebase/app";
-import "firebase/auth";
+// import firebaseApp from "firebase/app";
+// import "firebase/auth";
 export default {
   name: "app",
   // components: { Navigation, Footer },
@@ -36,7 +36,7 @@ export default {
   //   };
   // },
   created() {
-    console.log(firebaseApp);
+    // console.log(firebaseApp);
     // firebaseApp.auth().onAuthStateChanged((user) => {
     //   this.$store.commit("updateUser", user);
     //   if (user) {
@@ -47,7 +47,7 @@ export default {
     // this.$store.dispatch("getPost");
   },
   mounted() {
-    console.log(firebaseApp);
+    // console.log(firebaseApp);
   },
   methods: {
     checkRoute() {

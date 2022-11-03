@@ -19,23 +19,27 @@
           <div class="my-4 mt-sm-0"></div>
         </div>
         <div class="row">
+          <div v-if="error === true" class="danger">{{ errorMsg }}</div>
           <div class="col-md-8 my-5">
-            <form method="post" role="form">
+            <form @submit.prevent="savePost" role="form">
               <div class="form-group">
                 <label>Post Title </label>
                 <input
                   type="text"
                   class="form-control"
                   name="title"
+                  v-model="title"
                   placeholder="Enter the title of the blog"
+                  required
                 />
               </div>
 
               <div class="form-group my-2">
                 <label class="form-label">Blog Category</label>
-                <select class="form-control">
-                  <option>E-signing</option>
-                  <option>Buisness</option>
+                <select class="form-control" v-model="category" required>
+                  <option value="">Select Category</option>
+                  <option value="e-signing">E-signing</option>
+                  <option value="buisness">Buisness</option>
                 </select>
               </div>
               <div class="form-group">
@@ -90,8 +94,10 @@
               <div class="form-group my-2">
                 <label>Excerpt - optional</label>
                 <textarea
+                  required
                   class="form-control excerpt"
                   name="excerpt"
+                  v-model="excerpt"
                   placeholder="Write an excerpt"
                   style="height: 120px"
                 ></textarea>
@@ -100,18 +106,35 @@
               <div class="form-group my-2">
                 <label>Post content </label>
                 <textarea
+                  required
                   class="form-control bcontent"
                   name="content"
+                  v-model="content"
                   style="height: 120px"
                   placeholder="Compose content for the blog post. Users will see everything on this post once it is published."
                 ></textarea>
               </div>
-
+              <div class="form-group my-2">
+                <label class="label-control" for="status">Status</label>
+                <div>
+                  <select
+                    v-model="status"
+                    name="status"
+                    type="checkbox"
+                    class="form-control"
+                  >
+                    <option value="">Select Status</option>
+                    <option value="draft">Draft</option>
+                    <option value="live">Live</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group my-2">
+                <input type="hidden" name="created_at" v-model="created_at" />
+              </div>
               <div class="">
-                <button class="btn btn-md btn-outline-dark me-1">
-                  Save as draft
-                </button>
-                <button class="btn btn-md btn-primary">Publish</button>
+                <!-- <button class="btn btn-md btn-outline-dark me-1">Save as draft</button> -->
+                <button class="btn btn-md btn-primary">Submit</button>
               </div>
             </form>
           </div>
@@ -123,7 +146,18 @@
 
 <script setup>
 import { ref } from "vue";
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "@/firebase";
 import DropZone from "@/components/DropZone.vue";
+import moment from "moment";
+import { v4 as uuidv4 } from "uuid";
+import { useRouter } from "vue-router";
+
+const route = useRouter();
+const today = () => {
+  return moment().format("YYYY-MM-DD, HH:mm A");
+};
+
 const isUpload = ref(false);
 
 const dropzoneFile = ref("");
@@ -174,6 +208,51 @@ const selectedFile = () => {
   }
 
   preparedFile(dropFiles);
+};
+
+const title = ref("");
+const category = ref("");
+const excerpt = ref("");
+const content = ref("");
+const status = ref("");
+const created_at = ref(today());
+
+const error = ref(false);
+const errorMsg = ref("");
+
+const blogPost = ref([]);
+
+const savePost = () => {
+  if (
+    title.value != "" &&
+    category.value != "" &&
+    excerpt.value != "" &&
+    content.value != "" &&
+    status.value != "" &&
+    created_at.value != ""
+  ) {
+    error.value = false;
+    errorMsg.value = "";
+
+    addDoc(collection(db, "blogPost"), {
+      uid: uuidv4(),
+      title: title.value,
+      category: category.value,
+      excerpt: excerpt.value,
+      content: content.value,
+      status: status.value,
+      file: preview.value,
+      created_at: created_at.value,
+    });
+    blogPost.value = "";
+
+    route.push({ name: "admin.dashboard" }); // return;
+  }
+  error.value = true;
+  errorMsg.value = "Please fill out all the fields!";
+  console.log(error.value);
+  console.log(errorMsg.value);
+  return;
 };
 </script>
 
