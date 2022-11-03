@@ -176,20 +176,20 @@
       </li>
     </ul>
     <div class="menu-small sm-screen">
-      <li>
+      <li class="btn btn-sm btn-outline-primary p-0">
         <a
           href="https://user.gettonote.com"
           target="_blank"
-          class="sub-menu-item fw-size"
+          class="text fw-size"
           >Sign In</a
         >
       </li>
 
-      <li>
+      <li class="btn btn-sm btn-primary my-1 p-0">
         <a
           href="https://user.gettonote.com/register"
           target="_blank"
-          class="sub-menu-item fw-size"
+          class="sub-menu-item fw-size text-light"
         >
           Start free trial
         </a>
