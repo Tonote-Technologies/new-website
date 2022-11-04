@@ -1,6 +1,6 @@
 <template>
   <section class="section w-100 bg-half-100 border-bottom bg-primary">
-    <div class="container">
+    <div class="container p-4">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <div class="section-title mb-4 pb-2 text-center">

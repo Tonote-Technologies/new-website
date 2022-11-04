@@ -33,7 +33,7 @@
         <div class="row justify-content-around">
           <div class="col-lg-7 p-2">
             <ul
-              class="nav my-pills nav-pills d-flex justify-content-around rounded"
+              class="nav my-pills nav-pills d-flex justify-content-center rounded"
               id="pills-tab"
               role="tablist"
             >
@@ -48,13 +48,13 @@
                   aria-selected="false"
                 >
                   <div class="text-center py-1">
-                    <h6 class="mb-0">Affiliate Partners</h6>
+                    <div class="mb-0">Affiliate Partners</div>
                   </div> </a
                 ><!--end nav link-->
               </li>
               <!--end nav item-->
 
-              <li class="nav-item">
+              <li class="nav-item d-none">
                 <a
                   class="nav-link rounded"
                   id="pills-smart-tab"
@@ -65,7 +65,7 @@
                   aria-selected="false"
                 >
                   <div class="text-center py-1">
-                    <h6 class="mb-0">Referral Program</h6>
+                    <div class="mb-0">Referral Program</div>
                   </div> </a
                 ><!--end nav link-->
               </li>
@@ -82,7 +82,7 @@
                   aria-selected="false"
                 >
                   <div class="text-center py-1">
-                    <h6 class="mb-0">Strategic Partners</h6>
+                    <div class="mb-0">Strategic Partners</div>
                   </div> </a
                 ><!--end nav link-->
               </li>
@@ -106,9 +106,9 @@
                 <div class="row align-items-center">
                   <div class="col-lg-6 col-md-6 mt-4 pt-2">
                     <div class="section-title ms-lg-2 text-light p-2">
-                      <h3>Our Affiliate Partner</h3>
-                      <div style="font-size: 14px">
-                        <p>
+                      <h3 class="big-text text-light">Our Affiliate Partner</h3>
+                      <div style="">
+                        <p class="small-text text-light">
                           Are you an influential part of a community? Do you
                           have a social media following not quite at Influencer
                           status? Are you intrigued by sales and connecting with
@@ -160,7 +160,7 @@
                                   <button
                                     class="btn btn-outline-white fw-normal"
                                   >
-                                    Become a Partner
+                                    Become an Affiliate
                                   </button>
                                 </a>
                               </div>
@@ -172,11 +172,11 @@
                   </div>
                   <!--end col-->
 
-                  <div class="col-lg-6 col-md-6 mt-4 pt-2">
+                  <div class="col-lg-6 col-md-6 mt-4 pt-2 text-end">
                     <img
                       src="/assets/images/illustrator/partner-1.png"
                       class="img-fluid"
-                      width="600"
+                      width="500"
                       alt=""
                     />
                   </div>
@@ -195,7 +195,7 @@
                 <div class="row align-items-center">
                   <div class="col-lg-6 col-md-6 mt-4 pt-2">
                     <div class="section-title ms-lg-2 text-light p-2">
-                      <h3>Referral Program</h3>
+                      <h3 class="big-text text-light">Referral Program</h3>
                       <div style="font-size: 14px">
                         <p>
                           Refer a Friend. Earn cash. It’s that simple.
@@ -257,7 +257,7 @@
                     <img
                       src="/assets/images/illustrator/partner-2.png"
                       class="img-fluid"
-                      width="600"
+                      width="500"
                       alt=""
                     />
                   </div>
@@ -276,10 +276,12 @@
                 <div class="row align-items-center">
                   <div class="col-lg-6 col-md-6 mt-4 pt-2">
                     <div class="section-title ms-lg-2 text-light p-2">
-                      <h3>Our Strategic Partners</h3>
+                      <h3 class="big-text text-light">
+                        Our Strategic Partners
+                      </h3>
 
                       <div style="font-size: 14px">
-                        <p>
+                        <p class="small-text text-light">
                           Are you a business or organisation in any sector?
                           Power up your business growth, customer acquisition
                           and customer satisfaction through our strategic
@@ -360,7 +362,7 @@
                     <img
                       src="/assets/images/illustrator/partner-3.png"
                       class="img-fluid"
-                      width="600"
+                      width="500"
                       alt=""
                     />
                   </div>
@@ -486,13 +488,16 @@
                   placeholder="Enter your"
                 >
                   <option value="">Please select a partnership program</option>
+                  <option value="1">Affiliate Partner</option>
+                  <option value="2">Referral Program</option>
+                  <option value="3">Strategic PArtners</option>
                 </select>
               </div>
             </div>
 
             <div class="col-lg-12 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-uppercase"
+                <label class="control-label text-uppercase text-muted"
                   >Tell us more <sup>*</sup></label
                 >
                 <input class="form-control py-3" placeholder="" />
@@ -508,7 +513,7 @@
             </div>
 
             <div class="text-center">
-              <button class="btn btn-primary w-100 my-3">Join Now</button>
+              <button class="btn btn-primary p-3 w-100 my-3">Join Now</button>
             </div>
           </form>
         </div>

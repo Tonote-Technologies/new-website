@@ -1,19 +1,23 @@
 <template>
   <section class="section w-100 bg-half-100 pb-5 d-table bg-gradient">
-    <div class="container mt-60 my-5">
+    <div class="container mt-60 mt-3">
       <div class="row align-items-center">
         <div
           class="col-lg-5 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0"
         >
-          <div class="section-title">
+          <div class="section-title animate__animated animate__slideInLeft">
             <h2 class="page-header">ToSign</h2>
             <p class="page-subheader">
               Sign and send documents <br />
               up to <span class="text-primary">21 times</span> faster.
             </p>
             <div class="form-group mt-2 btn-route">
-              <a href="https://user.gettonote.com/register" target="blank">
-                <button class="btn btn-primary py-3">Sign Now</button>
+              <a
+                class="btn btn-primary py-3"
+                href="https://user.gettonote.com/register"
+                target="blank"
+              >
+                Sign Now <Icon icon="akar-icons:arrow-right" />
               </a>
             </div>
           </div>
@@ -24,7 +28,9 @@
         >
           <div class="p-0">
             <div class="card-body">
-              <div class="lg-screen">
+              <div
+                class="img-fluid lg-screen animate__animated animate__zoomIn"
+              >
                 <img
                   src="/assets/images/illustrator/tosign.png"
                   class="img-fluid"
@@ -155,14 +161,13 @@
                 </tr>
                 <tr>
                   <td colspan="2">
-                    <div class="form-group mt-2 btn-route">
+                    <div class="form-group mt-2">
                       <a
                         href="https://user.gettonote.com/register"
                         target="blank"
+                        class="btn btn-outline-white fw-normal"
                       >
-                        <button class="btn btn-outline-white fw-normal">
-                          Get Started
-                        </button>
+                        Get Started <Icon icon="akar-icons:arrow-right" />
                       </a>
                     </div>
                   </td>
@@ -184,3 +189,6 @@
     </div>
   </section>
 </template>
+<script setup>
+import { Icon } from "@iconify/vue";
+</script>

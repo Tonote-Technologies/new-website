@@ -1,6 +1,12 @@
 <template>
   <div id="navigation">
     <ul class="navigation-menu">
+      <div class="menu-small sm-screen">
+        <li>
+          <router-link class="sub-menu-item fw-size" to="/">Home</router-link>
+          <!-- <router-link class="sub-menu-item fw-size" :to="/">Home</router-link> -->
+        </li>
+      </div>
       <li>
         <router-link :to="{ name: 'About' }" class="sub-menu-item fw-size" exact
           >About Us</router-link
@@ -14,70 +20,58 @@
           <li>
             <router-link
               :to="{ name: 'solution.sign' }"
-              class="sub-menu-item fw-size d-flex justify-content-between"
+              class="sub-menu-item fw-size"
               exact
             >
-              <span>ToSign</span>
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M13.707 5.293l6 6a1 1 0 010 1.414l-6 6-1.414-1.414L16.586 13H4v-2h12.586l-4.293-4.293 1.414-1.414z"
-                  fill="currentColor"
-                ></path>
-              </svg>
+              <div class="row">
+                <div class="col-2">
+                  <span
+                    ><img src="assets/images/icon/icon-sign.png" width="15"
+                  /></span>
+                </div>
+                <div class="col-6"><span>ToSign</span></div>
+                <div class="col-4 text-end">
+                  <span><Icon icon="akar-icons:arrow-right" /></span>
+                </div>
+              </div>
             </router-link>
           </li>
           <li>
             <router-link
               :to="{ name: 'solution.notarise' }"
-              class="sub-menu-item fw-size d-flex justify-content-between"
+              class="sub-menu-item fw-size d-flex justify-content-around"
               exact
             >
-              <span>ToNotarise</span>
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M13.707 5.293l6 6a1 1 0 010 1.414l-6 6-1.414-1.414L16.586 13H4v-2h12.586l-4.293-4.293 1.414-1.414z"
-                  fill="currentColor"
-                ></path>
-              </svg>
+              <div class="row">
+                <div class="col-2">
+                  <span
+                    ><img src="assets/images/icon/icon-note.png" width="15"
+                  /></span>
+                </div>
+                <div class="col-6"><span>ToNotarise</span></div>
+                <div class="col-4 text-end">
+                  <span><Icon icon="akar-icons:arrow-right" /></span>
+                </div>
+              </div>
             </router-link>
           </li>
           <li>
             <router-link
               :to="{ name: 'solution.verify' }"
-              class="sub-menu-item fw-size d-flex justify-content-between"
+              class="sub-menu-item fw-size d-flex justify-content-around"
               exact
             >
-              <span>ToVerify</span>
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M13.707 5.293l6 6a1 1 0 010 1.414l-6 6-1.414-1.414L16.586 13H4v-2h12.586l-4.293-4.293 1.414-1.414z"
-                  fill="currentColor"
-                ></path>
-              </svg>
+              <div class="row">
+                <div class="col-2">
+                  <span
+                    ><img src="assets/images/icon/icon-verify.png" width="15"
+                  /></span>
+                </div>
+                <div class="col-6"><span>ToVerify</span></div>
+                <div class="col-4 text-end">
+                  <span><Icon icon="akar-icons:arrow-right" /></span>
+                </div>
+              </div>
             </router-link>
           </li>
         </ul>
@@ -104,25 +98,22 @@
         <ul class="submenu" :class="{ 'd-block': openResource }">
           <li>
             <router-link
+              :to="{ name: 'resource.partners' }"
+              class="sub-menu-item fw-size d-flex justify-content-between"
+              exact
+            >
+              <span>Partners</span>
+              <Icon icon="akar-icons:arrow-right" />
+            </router-link>
+          </li>
+          <li class="d-none">
+            <router-link
               :to="{ name: 'resource.blog' }"
               class="sub-menu-item fw-size d-flex justify-content-between"
               exact
             >
               <span>Blog</span>
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M13.707 5.293l6 6a1 1 0 010 1.414l-6 6-1.414-1.414L16.586 13H4v-2h12.586l-4.293-4.293 1.414-1.414z"
-                  fill="currentColor"
-                ></path>
-              </svg>
+              <Icon icon="akar-icons:arrow-right" />
             </router-link>
           </li>
           <li>
@@ -132,44 +123,7 @@
               exact
             >
               <span>FAQs</span>
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M13.707 5.293l6 6a1 1 0 010 1.414l-6 6-1.414-1.414L16.586 13H4v-2h12.586l-4.293-4.293 1.414-1.414z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </router-link>
-          </li>
-
-          <li>
-            <router-link
-              :to="{ name: 'resource.partners' }"
-              class="sub-menu-item fw-size d-flex justify-content-between"
-              exact
-            >
-              <span>Partners</span>
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M13.707 5.293l6 6a1 1 0 010 1.414l-6 6-1.414-1.414L16.586 13H4v-2h12.586l-4.293-4.293 1.414-1.414z"
-                  fill="currentColor"
-                ></path>
-              </svg>
+              <Icon icon="akar-icons:arrow-right" />
             </router-link>
           </li>
         </ul>
@@ -200,6 +154,7 @@
 
 <script setup>
 import { ref } from "vue";
+import { Icon } from "@iconify/vue";
 
 const openSolution = ref(false);
 function dropSolution() {

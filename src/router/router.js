@@ -361,7 +361,7 @@ const routes = [
       },
       {
         path: "/contact",
-        name: "Contact",
+        name: "contact",
         component: ContactPage,
         meta: {
           title: "Contact | ToNote",

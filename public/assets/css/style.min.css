@@ -1102,7 +1102,7 @@ p {
 	display: block;
 	font-family: "Material Design Icons";
 	font-size: 16px;
-	color: #2f55d4;
+	color: #000;
 	position: absolute;
 	right: 20px;
 	top: 50%;
@@ -1114,7 +1114,7 @@ p {
 
 .accordion .accordion-item .accordion-button.collapsed {
 	background-color: #fff;
-	color: #212529 !important;
+	color: #737679 !important;
 	-webkit-transition: all .5s;
 	transition: all .5s
 }
@@ -1127,7 +1127,7 @@ p {
 }
 
 .accordion .accordion-item .accordion-button:not(.collapsed) {
-	color: #2f55d4
+	color: #000;
 }
 
 .accordion .accordion-item .accordion-button:after {

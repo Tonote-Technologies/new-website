@@ -1,20 +1,24 @@
 <template>
   <section class="section bg-gradient">
-    <div class="container mt-60 my-4">
+    <div class="container mt-60 mt-4">
       <div class="row align-items-center">
         <div
           class="col-lg-5 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0"
         >
-          <div class="section-title">
+          <div class="section-title animate__animated animate__slideInLeft">
             <h2 class="page-header">ToNotarise</h2>
             <p class="page-subheader">
               Enjoy a notary experience that <br />
               is <span class="text-primary">5 times faster</span> and
               <span class="text-title-orange">55% cheaper.</span>
             </p>
-            <div class="form-group mt-2 btn-route">
-              <a href="https://user.gettonote.com/register" target="blank">
-                <button class="btn btn-primary py-3">Notarise Now</button>
+            <div class="form-group mt-2">
+              <a
+                class="btn btn-primary py-3"
+                href="https://user.gettonote.com/register"
+                target="blank"
+              >
+                Notarise Now <Icon icon="akar-icons:arrow-right" />
               </a>
             </div>
           </div>
@@ -27,7 +31,7 @@
             <div class="card-body">
               <img
                 src="/assets/images/illustrator/tonotarise-.png"
-                class="img-fluid"
+                class="img-fluid lg-screen animate__animated animate__zoomIn"
                 alt=""
               />
             </div>
@@ -109,14 +113,13 @@
                 </tr>
                 <tr>
                   <td colspan="2">
-                    <div class="form-group mt-2 btn-route">
+                    <div class="form-group mt-2">
                       <a
                         href="https://user.gettonote.com/register"
                         target="blank"
+                        class="btn btn-outline-white"
                       >
-                        <button class="btn btn-outline-white">
-                          Get Started
-                        </button>
+                        Get Started <Icon icon="akar-icons:arrow-right" />
                       </a>
                     </div>
                   </td>
@@ -138,3 +141,6 @@
     </div>
   </section>
 </template>
+<script setup>
+import { Icon } from "@iconify/vue";
+</script>

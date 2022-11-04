@@ -18,7 +18,9 @@
             absolutely free and great for personal use.
           </p>
           <div class="route-link">
-            <a href="">Get Started<i class="mdi mdi-arrow-right me-2"></i> </a>
+            <a href="https://user.gettonote.com"
+              >Get Started<i class="mdi mdi-arrow-right me-2"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -81,7 +83,9 @@
             essential documentation.
           </p>
           <div class="route-link">
-            <a href="">Get Started<i class="mdi mdi-arrow-right me-2"></i> </a>
+            <a href="https://user.gettonote.com"
+              >Get Started<i class="mdi mdi-arrow-right me-2"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -91,7 +95,7 @@
   <HomePlan id="business">
     <template #aside-left>
       <div class="col-lg-5 col-md-6 col-12 order-0 order-lg-0 g-0">
-        <div class="section-title" style="padding-left: 1rem !important">
+        <div class="section-title" style="padding-left: 1.5rem !important">
           <h2>ToNote for Business</h2>
           <div class="sub-header my-3">Close deals faster/seamlessly.</div>
           <p class="sub-title">
@@ -102,7 +106,9 @@
             in record time. Closing transactions has never been this easy.
           </p>
           <div class="route-link">
-            <a href="">Get Started<i class="mdi mdi-arrow-right me-2"></i> </a>
+            <a href="https://user.gettonote.com"
+              >Get Started<i class="mdi mdi-arrow-right me-2"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -146,7 +152,9 @@
             conferencing features.
           </p>
           <div class="route-link">
-            <a href="">Get Started<i class="mdi mdi-arrow-right me-2"></i> </a>
+            <a href="https://user.gettonote.com"
+              >Get Started<i class="mdi mdi-arrow-right me-2"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -185,7 +193,12 @@
               </p>
               <div class="py-3">
                 <div class="btn-group btn-route">
-                  <button class="btn btn-light fw-normal">Contact Sales</button>
+                  <router-link
+                    class="btn btn-light fw-normal"
+                    :to="{ name: 'contact' }"
+                  >
+                    Contact Sales
+                  </router-link>
                 </div>
               </div>
             </div>

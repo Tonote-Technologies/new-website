@@ -14,13 +14,14 @@
       <div class="row align-items-center text-center text-light">
         <p>
           We are building a platform that enables convenient and compliant
-          notarisations for individual or business purposes. Connect with
+          notarisations for individual or business purposes. <br />Connect with
           customers in need of notarial services or affidavits and notarise
-          documents from anywhere and at anytime. Increase your notary income by
-          becoming a part of the fastest growing notary community in Africa.
+          documents from anywhere and at anytime. <br />Increase your notary
+          income by becoming a part of the fastest growing notary community in
+          Africa.
         </p>
 
-        <div>
+        <div class="btn-route">
           <a
             href="https://gettonote.com/signup.php"
             class="btn btn-light my-2 fw-normal"
@@ -45,12 +46,12 @@
               <a href="#">our blog</a> or dive straight in and take part on our
               free
               <a href="#">e-cademy program</a>
-              . where you will learn all you need to know about the future of
+              where you will learn all you need to know about the future of
               notarisation.
             </p>
 
             <div class="route-link">
-              <a class="btn btn-primary p-2">
+              <a class="btn btn-primary p-3">
                 <span>Start ToNote E-cademy course</span>
                 <span
                   ><svg
@@ -93,7 +94,7 @@
           <img
             src="assets/images/illustrator/for-notary-2.png"
             class="img-fluid"
-            width="400"
+            width="500"
             alt=""
           />
         </div>

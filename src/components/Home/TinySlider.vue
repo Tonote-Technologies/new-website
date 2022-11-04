@@ -83,6 +83,7 @@
         src="assets/images/clients/image13.png"
         class="avatar avatar-ex-sm"
         alt=""
+        width="200"
       />
     </div>
     <div class="py-2">
@@ -131,7 +132,7 @@ const options = {
   autoplayButtonOutput: false,
   autoplayTimeout: 3000,
   navPosition: "bottom",
-  speed: 400,
+  speed: 500,
   gutter: 12,
   responsive: {
     992: {

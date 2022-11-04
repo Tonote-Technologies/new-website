@@ -1,11 +1,11 @@
 <template>
   <section class="section bg-gradient">
-    <div class="container mt-60 my-5">
+    <div class="container mt-60 mt-4">
       <div class="row align-items-center">
         <div
-          class="col-lg-6 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0"
+          class="col-lg-5 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0"
         >
-          <div class="section-title">
+          <div class="section-title animate__animated animate__slideInLeft">
             <h2 class="page-header">ToVerify</h2>
             <p class="page-subheader">
               Trust the authenticity of all documents received.
@@ -21,9 +21,9 @@
                     name=""
                   />
                 </div>
-                <div class="form-group mt-2 btn-route">
+                <div class="form-group mt-2">
                   <button class="btn btn-primary fw-normal py-3">
-                    Get early access
+                    Get early access <Icon icon="akar-icons:arrow-right" />
                   </button>
                 </div>
               </div>
@@ -32,15 +32,24 @@
         </div>
 
         <div
-          class="col-lg-6 col-md-6 order-1 order-md-2 d-flex justify-content-end"
+          class="col-lg-7 col-md-6 order-1 order-md-2 d-flex justify-content-end"
         >
-          <div class="p-2">
+          <div class="p-0">
             <div class="card-body">
-              <img
-                src="/assets/images/illustrator/toverify.png"
-                class="img-fluid"
-                alt=""
-              />
+              <div class="lg-screen">
+                <img
+                  src="/assets/images/illustrator/toverify.png"
+                  class="img-fluid lg-screen animate__animated animate__zoomIn"
+                  alt=""
+                />
+              </div>
+              <div class="sm-screen">
+                <img
+                  src="/assets/images/illustrator/toverify-sm.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -81,7 +90,7 @@
         <div class="text-center">
           <img
             src="/assets/images/illustrator/comingsoon.png"
-            class="img-fluid"
+            class="img-fluid d-none"
             width="400"
             alt=""
           />
@@ -112,8 +121,10 @@
             </div>
           </div>
 
-          <div class="text-center py-4 btn-route">
-            <button class="btn btn-outline-white fw-normal">Notify me</button>
+          <div class="text-center py-4">
+            <button class="btn btn-outline-white fw-normal">
+              Notify me <Icon icon="akar-icons:arrow-right" />
+            </button>
           </div>
         </div>
       </div>
@@ -121,6 +132,8 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { Icon } from "@iconify/vue";
+</script>
 
 <style scoped></style>

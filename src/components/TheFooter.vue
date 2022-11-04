@@ -6,8 +6,11 @@
       or business needs.
     </p>
     <div class="justify-content-center d-flex py-3">
-      <div class="btn-group btn-route">
-        <button class="btn btn-light fw-normal">Contact Sales</button>
+      <div class="btn-group route-link">
+        <router-link :to="{ name: 'contact' }" class="btn btn-light fw-normal">
+          Contact Sales <Icon icon="akar-icons:arrow-right"
+        />
+        </router-link>
       </div>
     </div>
   </section>
@@ -31,7 +34,7 @@
                 class="col-lg-6 col-12 mb-0 mb-md-8 d-flex justify-content-lg-end"
               >
                 <div class="w-100">
-                  <div class="input-group mb-3 myinput-wrap p-1">
+                  <div class="input-group mb-3 myinput-wrap p-1 rounded">
                     <input
                       type="text"
                       class="form-control border-0"
@@ -109,10 +112,7 @@
                   </li>
 
                   <li>
-                    <a href="javascript:void(0)" class="text-foot"> Careers</a>
-                  </li>
-                  <li>
-                    <router-link :to="{ name: 'Contact' }" class="text-foot">
+                    <router-link :to="{ name: 'contact' }" class="text-foot">
                       Contact Us</router-link
                     >
                   </li>
