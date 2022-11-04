@@ -8,7 +8,7 @@
           <div class="section-title animate__animated animate__slideInLeft">
             <h2 class="page-header">ToVerify</h2>
             <p class="page-subheader">
-              Trust the authenticity of all documents received.
+              Enter your email below and get early access when we launch.
             </p>
 
             <form class="row">
@@ -35,7 +35,7 @@
           class="col-lg-7 col-md-6 order-1 order-md-2 d-flex justify-content-end"
         >
           <div class="p-0">
-            <div class="card-body">
+            <div class="card-body mt-sm-5">
               <div class="lg-screen">
                 <img
                   src="/assets/images/illustrator/toverify.png"
@@ -107,8 +107,8 @@
             We are working hard to get this up and running.
           </div>
           <div class="text-center text-light pt-4">
-            In the meantime, please email ask@gettonote.com to find out more
-            about the document authentication services that we offer
+            In the meantime, Please send an email to ask@gettonote.com to find
+            out more about the document authentication services that we offer
           </div>
           <div class="progress-box my-5">
             <div class="progress my-progress">

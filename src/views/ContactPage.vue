@@ -134,7 +134,7 @@
                   <div class="col-sm-12 mt-3">
                     <button
                       type="submit"
-                      class="btn btn-outline-primary"
+                      class="btn btn-primary"
                       id="btnContactUs"
                       style="opacity: 1"
                     >

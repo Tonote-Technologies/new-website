@@ -316,9 +316,11 @@
 	text-align: center;
 	color: #929292;
 }
-.mytable tr td{
+.mytable td{
 	font-weight: 200;
+	padding-bottom: 0.9rem;
 }
+
 .para-desc {
 	font-family: 'Poppins';
 	font-style: normal;
@@ -352,18 +354,29 @@
     color: #212529;
     padding: 10px 20px;
 }
+.mt-sm-5 {margin-top: 0rem !important;}
 /* sm */
 @media (max-width: 768px) {
-	.hero-header {
-	font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-	font-size: 35px;
-    line-height: 48px;
-    
-	/* text-align: center; */
-	margin-top: 3rem;
+	.subcribe-form input {
+    font-size: 12px !important;
 }
+	.subcribe-form button {font-size: 12px !important;}
+	.mt-sm-5 {
+		margin-top: 3rem !important;
+	}
+	.mb-sm-5 {
+		margin-top: 3rem;
+	}
+	.hero-header {
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 35px;
+		line-height: 48px;
+		
+		/* text-align: center; */
+		margin-top: 3rem;
+	}
 	.hero-img{
 		margin-top: 4rem;
 	}

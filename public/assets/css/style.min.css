@@ -1257,8 +1257,8 @@ p {
 }
 
 .form-check-input {
-	border: 1px solid #e9ecef;
-	background-color: #fff
+	border: 1px solid #292221;
+    background-color: #8492a6;
 }
 
 
@@ -1285,9 +1285,10 @@ p {
 	border: none;
 	outline: 0 !important;
 	padding-right: 160px;
-	padding-left: 30px;
+	padding-left: 10px;
 	background-color: rgba(255, 255, 255, .8);
-	height: 50px
+	height: 50px;
+	font-ize:12px;
 }
 
 .subcribe-form input::-webkit-input-placeholder {

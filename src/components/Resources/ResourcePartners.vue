@@ -106,7 +106,9 @@
                 <div class="row align-items-center">
                   <div class="col-lg-6 col-md-6 mt-4 pt-2">
                     <div class="section-title ms-lg-2 text-light p-2">
-                      <h3 class="big-text text-light">Our Affiliate Partner</h3>
+                      <h3 class="big-text text-light">
+                        Become an affiliate partner
+                      </h3>
                       <div style="">
                         <p class="small-text text-light">
                           Are you an influential part of a community? Do you

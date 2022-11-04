@@ -8,8 +8,7 @@
     <div class="justify-content-center d-flex py-3">
       <div class="btn-group route-link">
         <router-link :to="{ name: 'contact' }" class="btn btn-light fw-normal">
-          Contact Sales <Icon icon="akar-icons:arrow-right"
-        />
+          Contact Sales <Icon icon="akar-icons:arrow-right" />
         </router-link>
       </div>
     </div>
@@ -268,7 +267,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
+// const isShow = true;
 onMounted(() => {
   backToTopBn.value = document.getElementById("back-to-top");
 });

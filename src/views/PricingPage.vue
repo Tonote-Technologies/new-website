@@ -116,10 +116,23 @@
                   Electronically sign, notarise and share essential documents
                 </div>
                 <div class="text-center py-3 text-primary h5">FREE</div>
-                <div class="text-center">
-                  <span class="price-value"> N8,000 * Per Notary Session </span>
-                  <span> N4,000 * Per Affidavit</span>
+                <div class="lg-screen">
+                  <div class="row">
+                    <div class="col-lg-6 text-end">
+                      N8,000 * Per Notary Session
+                    </div>
+                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                  </div>
                 </div>
+                <div class="sm-screen">
+                  <div class="row text-center">
+                    <div class="col-lg-6 col-sm-12">
+                      N8,000 * Per Notary Session
+                    </div>
+                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                  </div>
+                </div>
+
                 <div class="justify-content-center d-flex py-3">
                   <div class="btn-group btn-route">
                     <a
@@ -287,9 +300,21 @@
                 </div>
                 <div class="text-center py-3 text-primary h5">NGN 9,900</div>
 
-                <div class="text-center">
-                  <span class="price-value"> N8,000 * Per Notary Session </span>
-                  <span> N4,000 * Per Affidavit</span>
+                <div class="lg-screen">
+                  <div class="row">
+                    <div class="col-lg-6 text-end">
+                      N8,000 * Per Notary Session
+                    </div>
+                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                  </div>
+                </div>
+                <div class="sm-screen">
+                  <div class="row text-center">
+                    <div class="col-lg-6 col-sm-12">
+                      N8,000 * Per Notary Session
+                    </div>
+                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                  </div>
                 </div>
                 <div class="justify-content-center d-flex py-3">
                   <div class="btn-group btn-route">
@@ -467,11 +492,23 @@
                 role="tabpanel"
                 aria-labelledby="pills-apps-tab"
               >
-                <div class="price-header">Close deals faster/seamlessly.</div>
+                <div class="price-header">Close deals faster.</div>
                 <div class="text-center py-3 text-primary h5">NGN 19,900</div>
-                <div class="text-center">
-                  <span class="price-value"> N8,000 * Per Notary Session </span>
-                  <span> N4,000 * Per Affidavit</span>
+                <div class="lg-screen">
+                  <div class="row">
+                    <div class="col-lg-6 text-end">
+                      N8,000 * Per Notary Session
+                    </div>
+                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                  </div>
+                </div>
+                <div class="sm-screen">
+                  <div class="row text-center">
+                    <div class="col-lg-6 col-sm-12">
+                      N8,000 * Per Notary Session
+                    </div>
+                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                  </div>
                 </div>
                 <div class="justify-content-center d-flex py-3">
                   <div class="btn-group btn-route">

@@ -26,7 +26,7 @@
               <div class="row">
                 <div class="col-2">
                   <span
-                    ><img src="assets/images/icon/icon-sign.png" width="15"
+                    ><img src="/assets/images/icon/icon-sign.png" width="15"
                   /></span>
                 </div>
                 <div class="col-6"><span>ToSign</span></div>
@@ -39,13 +39,13 @@
           <li>
             <router-link
               :to="{ name: 'solution.notarise' }"
-              class="sub-menu-item fw-size d-flex justify-content-around"
+              class="sub-menu-item fw-size"
               exact
             >
               <div class="row">
                 <div class="col-2">
                   <span
-                    ><img src="assets/images/icon/icon-note.png" width="15"
+                    ><img src="/assets/images/icon/icon-note.png" width="15"
                   /></span>
                 </div>
                 <div class="col-6"><span>ToNotarise</span></div>
@@ -58,13 +58,13 @@
           <li>
             <router-link
               :to="{ name: 'solution.verify' }"
-              class="sub-menu-item fw-size d-flex justify-content-around"
+              class="sub-menu-item fw-size"
               exact
             >
               <div class="row">
                 <div class="col-2">
                   <span
-                    ><img src="assets/images/icon/icon-verify.png" width="15"
+                    ><img src="/assets/images/icon/icon-verify.png" width="15"
                   /></span>
                 </div>
                 <div class="col-6"><span>ToVerify</span></div>

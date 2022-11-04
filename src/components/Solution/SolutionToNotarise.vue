@@ -27,11 +27,11 @@
         <div
           class="col-lg-7 col-md-6 order-1 order-md-2 d-flex justify-content-end"
         >
-          <div class="p-2">
-            <div class="card-body">
+          <div class="p-2 mt-2">
+            <div class="card-body mt-sm-5">
               <img
-                src="/assets/images/illustrator/tonotarise-.png"
-                class="img-fluid lg-screen animate__animated animate__zoomIn"
+                src="/assets/images/illustrator/tonotarise.png"
+                class="img-fluid animate__animated animate__zoomIn"
                 alt=""
               />
             </div>

@@ -17,6 +17,4 @@ import TransitionPage from "@/components/Transitions/TransitionPage.vue";
 // import TheFooter from "@/components/TheFooter.vue";
 </script>
 
-<style>
-
-</style>
+<style></style>

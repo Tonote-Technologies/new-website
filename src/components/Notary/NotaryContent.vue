@@ -35,7 +35,7 @@
   <section class="section">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6 col-md-6 mt-4 pt-2">
+        <div class="col-lg-6 col-md-6 mt-4 pt-2 order-1 order-lg-0">
           <div class="section-title ms-lg-2 p-2">
             <p class="big-text">ToNote e-Cademy</p>
 
@@ -43,7 +43,7 @@
               The global notarisation landscape is evolving and we want to help
               you stay up to date on the latest trends, regulations,
               technologies and techniques. To stay updated, you can subscribe to
-              <a href="#">our blog</a> or dive straight in and take part on our
+              <a href="#">our blog</a> or dive straight in and take part in our
               free
               <a href="#">e-cademy program</a>
               where you will learn all you need to know about the future of
@@ -72,15 +72,13 @@
           </div>
         </div>
 
-        <div class="col-lg-6 col-md-6 mt-4 pt-2 d-flex justify-content-end">
-          <div class="card">
-            <div class="body p-5">
-              <img
-                src="assets/images/illustrator/for-notary-1.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+        <div class="col-lg-6 col-md-6 mt-4 pt-2 order-0 order-lg-1">
+          <div class="p-5">
+            <img
+              src="assets/images/illustrator/for-notary-1.png"
+              class="img-fluid"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -91,12 +89,14 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-6 mt-4 pt-2">
-          <img
-            src="assets/images/illustrator/for-notary-2.png"
-            class="img-fluid"
-            width="500"
-            alt=""
-          />
+          <div class="p-2">
+            <img
+              src="assets/images/illustrator/for-notary-2.png"
+              class="img-fluid"
+              width="500"
+              alt=""
+            />
+          </div>
         </div>
         <div class="col-lg-6 col-md-6 mt-4 pt-2">
           <div class="section-title ms-lg-2 p-2">
