@@ -2,8 +2,18 @@
   <header id="topnav" class="defaultscroll sticky">
     <div class="container">
       <router-link class="logo" to="/">
-        <img src="/assets/images/logo-b.png" height="24" class="logo-light-mode" alt="ToNote Brand" />
-        <img src="/assets/images/logo-b-light.png" height="24" class="logo-dark-mode" alt="ToNote Brand" />
+        <img
+          src="/assets/images/logo-b.png"
+          height="24"
+          class="logo-light-mode"
+          alt="ToNote Brand"
+        />
+        <img
+          src="/assets/images/logo-b-light.png"
+          height="24"
+          class="logo-dark-mode"
+          alt="ToNote Brand"
+        />
       </router-link>
 
       <div class="menu-extras">
@@ -44,20 +54,24 @@
 <script setup>
 import TheNavbar from "./TheNavbar.vue";
 
-import { useRouter, useRoute } from "vue-router";
-import { onMounted } from "vue";
-const router = useRouter();
+import { useRoute } from "vue-router";
+import { watch } from "vue";
+// const router = useRouter();
 const route = useRoute();
 
-onMounted(() => {
-  console.log(router.currentRoute.value);
-  console.log(route.name);
-})
+watch(
+  () => route.name,
+  (to) => {
+    if (to) {
+      toggleMenu();
+    }
+  },
+);
 
 function toggleMenu() {
   document.getElementById("isToggle").classList.toggle("open");
   var isOpen = document.getElementById("navigation");
-  if (isOpen.style.display === "block") {
+  if (isOpen.style.display == "block") {
     isOpen.style.display = "none";
   } else {
     isOpen.style.display = "block";
@@ -65,6 +79,4 @@ function toggleMenu() {
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

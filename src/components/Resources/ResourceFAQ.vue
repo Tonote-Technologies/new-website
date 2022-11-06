@@ -253,12 +253,14 @@
     >
       <img src="/assets/images/icon-gradient.html" height="550" alt="" />
     </div>
+    <GetStarted />
   </section>
 </template>
 
 <script setup>
 import { users, notary } from "./data.js";
 import { ref } from "vue";
+import GetStarted from "@/components/GetStartedPage.vue";
 
 const userQue = ref("");
 const notaryQue = ref("");

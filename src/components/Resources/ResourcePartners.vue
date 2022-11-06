@@ -521,9 +521,12 @@
         </div>
       </div>
     </div>
+    <GetStarted />
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import GetStarted from "@/components/GetStartedPage.vue";
+</script>
 
 <style scoped></style>

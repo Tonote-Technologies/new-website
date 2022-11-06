@@ -207,12 +207,14 @@
         </div>
       </div>
     </div>
+    <GetStarted />
   </section>
 </template>
 
 <script setup>
 import { ref, onMounted } from "vue";
 import { collection, onSnapshot } from "firebase/firestore";
+import GetStarted from "@/components/GetStartedPage.vue";
 import { db } from "@/firebase";
 import moment from "moment";
 // import { Icon } from "@iconify/vue";

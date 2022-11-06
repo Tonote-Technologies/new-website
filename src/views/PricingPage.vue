@@ -20,7 +20,7 @@
                       class="form-check-input"
                       type="checkbox"
                       id="switcher"
-                      checked
+                      @change="changePrice($event)"
                     />
                   </div>
                   <label class="toggler text-muted" id="filt-yearly"
@@ -298,7 +298,9 @@
                 <div class="price-header">
                   Collaborate with teams on a whole new level
                 </div>
-                <div class="text-center py-3 text-primary h5">NGN 9,900</div>
+                <div class="text-center py-3 text-primary h5">
+                  NGN <span>{{ p }}</span>
+                </div>
 
                 <div class="lg-screen">
                   <div class="row">
@@ -493,7 +495,9 @@
                 aria-labelledby="pills-apps-tab"
               >
                 <div class="price-header">Close deals faster.</div>
-                <div class="text-center py-3 text-primary h5">NGN 19,900</div>
+                <div class="text-center py-3 text-primary h5">
+                  NGN <span>{{ b }}</span>
+                </div>
                 <div class="lg-screen">
                   <div class="row">
                     <div class="col-lg-6 text-end">
@@ -620,9 +624,40 @@
         </div>
       </div>
     </div>
+    <GetStarted />
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+import GetStarted from "@/components/GetStartedPage.vue";
+
+const proPlan = ref(9900);
+const bizPlan = ref(19900);
+const p = ref("9,900.00");
+const b = ref("19,900.00");
+
+function formatToCurrency(amount) {
+  return amount.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, "$&,");
+}
+const calculate = (plan) => {
+  let gross = plan * 12;
+  let annualDiscount = gross * 0.1;
+  let annual = gross - annualDiscount;
+  return formatToCurrency(annual);
+};
+
+const changePrice = (e) => {
+  if (e.target.checked == true) {
+    p.value = calculate(proPlan.value);
+    b.value = calculate(bizPlan.value);
+  } else {
+    p.value = formatToCurrency(proPlan.value);
+    b.value = formatToCurrency(bizPlan.value);
+  }
+
+  // e.target.checked == false ? b : bizPlan.value;
+};
+</script>
 
 <style scoped></style>
