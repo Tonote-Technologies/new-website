@@ -165,6 +165,16 @@ const openResource = ref(false);
 function dropResource() {
   openResource.value = !openResource.value;
 }
+
+// watch: {
+//   '$route' () {
+//         const element = document.querySelector("#nav-collapse");
+//         let isShown = element.classList.contains("show");
+//         if(isShown){
+//             this.$root.$emit('bv::toggle::collapse', 'nav-collapse')
+//         }
+//     }
+// }
 </script>
 
 <style scoped></style>

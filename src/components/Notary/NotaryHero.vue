@@ -10,7 +10,7 @@
     </div>
     <div class="container mt-60">
       <div class="col-lg-12 col-md-12">
-        <a href="https://gettonote.com/signup.php">
+        <a href="https://gettonote.com/page/signup.php">
           <img
             src="assets/images/illustrator/notary.png"
             class="img-fluid"

@@ -590,4 +590,6 @@ router.afterEach(() => {
   NProgress.done();
 });
 
+
+
 export default router;
