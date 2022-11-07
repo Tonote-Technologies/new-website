@@ -1,6 +1,4 @@
 <template>
- 
-
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -111,13 +109,13 @@
                 <h5 class="text-light">Legals</h5>
                 <ul class="list-unstyled footer-list mt-4">
                   <li>
-                    <a href="javascript:void(0)" class="text-foot">
-                      Privacy Policy</a
+                    <router-link :to="{ name: 'Privacy' }" class="text-foot">
+                      Privacy Policy</router-link
                     >
                   </li>
                   <li>
-                    <a href="javascript:void(0)" class="text-foot">
-                      Terms of Use</a
+                    <router-link :to="{ name: 'Terms' }" class="text-foot">
+                      Terms of Use</router-link
                     >
                   </li>
 

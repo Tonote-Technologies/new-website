@@ -110,6 +110,16 @@ const ResourcePartners = () =>
     /* webpackChunkName: "faq" */ "@/components/Resources/ResourcePartners.vue"
   );
 
+const PrivacyPolicy = () =>
+  import(
+    /* webpackChunkName: "about-page" */ "@/views/PrivacyPolicy.vue"
+  );
+
+const TermsPage = () =>
+  import(
+    /* webpackChunkName: "about-page" */ "@/views/TermsPage.vue"
+  );
+
 const routes = [
   {
     path: "/admin",
@@ -483,6 +493,44 @@ const routes = [
             },
           },
         ],
+      },
+      {
+        path: "/privacy",
+        name: "Privacy",
+        component: PrivacyPolicy,
+        meta: {
+          title: "Privacy | ToNote",
+          transitionName: "fade",
+          metaTags: [
+            {
+              name: "description",
+              content: "The privacy page of ToNote.",
+            },
+            {
+              property: "og:description",
+              content: "The privacy page of ToNote.",
+            },
+          ],
+        },
+      },
+      {
+        path: "/terms",
+        name: "Terms",
+        component: TermsPage,
+        meta: {
+          title: "Terms | ToNote",
+          transitionName: "fade",
+          metaTags: [
+            {
+              name: "description",
+              content: "The terms page of ToNote.",
+            },
+            {
+              property: "og:description",
+              content: "The terms page of ToNote.",
+            },
+          ],
+        },
       },
     ]
   },
