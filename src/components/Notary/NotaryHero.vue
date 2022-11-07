@@ -8,11 +8,22 @@
       </div>
       <button class="btn btn-primary my-3">Start Earning</button>
     </div>
-    <div class="container mt-60">
+    <div class="container mt-60 lg-screen">
       <div class="col-lg-12 col-md-12">
         <a href="https://gettonote.com/page/signup.php">
           <img
             src="assets/images/illustrator/notary.png"
+            class="img-fluid"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+    <div class="container mt-60 sm-screen">
+      <div class="col-lg-12 col-md-12">
+        <a href="https://gettonote.com/page/signup.php">
+          <img
+            src="assets/images/illustrator/notary-sm.png"
             class="img-fluid"
             alt=""
           />

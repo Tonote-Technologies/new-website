@@ -1,10 +1,19 @@
 <template>
   <section class="section bg-gradient">
     <div class="container mt-60">
-      <div class="col-lg-12 col-md-12">
+      <div class="col-lg-12 col-md-12 lg-screen">
         <a href="#partnerForm">
           <img
             src="/assets/images/illustrator/pertn.png"
+            class="img-fluid"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="col-lg-12 col-md-12 sm-screen">
+        <a href="#partnerForm">
+          <img
+            src="/assets/images/illustrator/partner-sm.png"
             class="img-fluid"
             alt=""
           />
@@ -37,9 +46,9 @@
               id="pills-tab"
               role="tablist"
             >
-              <li class="nav-item">
+              <li class="nav-item m-2" style="width: 200px">
                 <a
-                  class="nav-link rounded active me-3"
+                  class="nav-link rounded active"
                   id="pills-cloud-tab"
                   data-bs-toggle="pill"
                   href="#pills-cloud"
@@ -71,7 +80,7 @@
               </li>
               <!--end nav item-->
 
-              <li class="nav-item">
+              <li class="nav-item m-2" style="width: 200px">
                 <a
                   class="nav-link rounded"
                   id="pills-apps-tab"
@@ -521,8 +530,8 @@
         </div>
       </div>
     </div>
-    <GetStarted />
   </section>
+  <GetStarted />
 </template>
 
 <script setup>
