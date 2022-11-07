@@ -17,7 +17,7 @@
               <div
                 class="col-lg-6 col-12 mb-0 mb-md-8 d-flex justify-content-lg-end"
               >
-                <div class="w-100">
+                <div class="w-100 lg-screen">
                   <div class="input-group mb-3 myinput-wrap p-1 rounded">
                     <input
                       type="text"
@@ -30,6 +30,24 @@
                       <span class="btn btn-light" id="basic-addon2"
                         >Follow our Journey</span
                       >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="w-100 sm-screen">
+                  <div class="my-2">
+                    <input
+                      type="text"
+                      class="form-control py-3"
+                      placeholder="Enter your email here"
+                      aria-label="Search"
+                      aria-describedby="basic-addon2"
+                      style="background: transparent; color: #fff !important"
+                    />
+                  </div>
+                  <div class="mb-2">
+                    <div class="btn btn-light w-100 py-3">
+                      Follow our Journey
                     </div>
                   </div>
                 </div>

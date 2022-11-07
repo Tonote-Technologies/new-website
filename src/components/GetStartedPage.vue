@@ -1,5 +1,5 @@
 <template>
-  <section class="w-100 dark-blue py-5" id="contactUs">
+  <section class="w-100 dark-blue p-2 py-5" id="contactUs">
     <h2 class="text-center text-light py-2">Getting started is easy</h2>
     <p class="text-center text-light py-2">
       Contact us to find out more about our notary solutions for your personal

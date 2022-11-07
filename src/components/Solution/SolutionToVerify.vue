@@ -69,7 +69,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="text-center subcribe-form my-4 py-2">
+          <div class="text-center subcribe-form my-4 py-2 lg-screen">
             <form>
               <input
                 type="text"
@@ -81,6 +81,26 @@
               />
               <div class="">
                 <button type="submit" class="btn btn-primary">
+                  Coming Soon <Icon icon="akar-icons:arrow-right" />
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="text-center my-4 py-2 sm-screen">
+            <form>
+              <div class="">
+                <input
+                  type="text"
+                  name="document_number"
+                  class="form-control w-100 rounded border"
+                  placeholder="Provide document number"
+                  style="color: #fff !important; background-color: transparent"
+                />
+              </div>
+
+              <div class="my-2">
+                <button type="submit" class="btn btn-light w-100">
                   Coming Soon <Icon icon="akar-icons:arrow-right" />
                 </button>
               </div>

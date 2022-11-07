@@ -42,7 +42,7 @@
                 signatures.
               </div>
               <div class="route-link py-2">
-                <a href=""
+                <a href="https://user.gettonote.com"
                   >Get Started<i class="mdi mdi-arrow-right me-2"></i>
                 </a>
               </div>
@@ -77,7 +77,7 @@
                 documents or swear affidavits the easy way.
               </div>
               <div class="route-link py-2">
-                <a href=""
+                <a href="https://user.gettonote.com"
                   >Notarise Now <i class="mdi mdi-arrow-right me-2"></i
                 ></a>
               </div>
@@ -112,7 +112,7 @@
                 document received.
               </div>
               <div class="route-link py-2">
-                <a href=""
+                <a href="https://user.gettonote.com"
                   >Coming Soon <i class="mdi mdi-arrow-right me-2"></i
                 ></a>
               </div>

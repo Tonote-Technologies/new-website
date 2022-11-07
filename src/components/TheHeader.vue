@@ -63,7 +63,11 @@ watch(
   () => route.name,
   (to) => {
     if (to) {
-      toggleMenu();
+      document.getElementById("isToggle").classList.toggle("open");
+      var isOpen = document.getElementById("navigation");
+      if (isOpen.style.display == "block") {
+        isOpen.style.display = "none";
+      }
     }
   },
 );

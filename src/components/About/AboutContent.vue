@@ -16,7 +16,7 @@
         </div>
 
         <div class="col-lg-6 col-md-6">
-          <div class="section-title">
+          <div class="section-title p-2">
             <h2>Who we are</h2>
 
             <p>
