@@ -27,7 +27,7 @@
         <div
           class="col-lg-7 col-md-6 order-1 order-md-2 d-flex justify-content-end"
         >
-          <div class="p-2 mt-2">
+          <div class="p-2 mt-2 animate__animated animate__zoomIn">
             <div class="card-body mt-sm-5">
               <img
                 src="/assets/images/illustrator/tonotarise.png"

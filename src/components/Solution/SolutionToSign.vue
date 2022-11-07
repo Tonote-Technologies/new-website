@@ -27,10 +27,8 @@
           class="col-lg-7 col-md-6 order-1 order-md-2 d-flex justify-content-end"
         >
           <div class="p-0">
-            <div class="card-body mt-sm-5">
-              <div
-                class="img-fluid lg-screen animate__animated animate__zoomIn"
-              >
+            <div class="card-body mt-sm-5 animate__animated animate__zoomIn">
+              <div class="img-fluid lg-screen">
                 <img
                   src="/assets/images/illustrator/tosign.png"
                   class="img-fluid"

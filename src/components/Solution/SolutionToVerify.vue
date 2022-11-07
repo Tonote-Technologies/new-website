@@ -35,7 +35,7 @@
           class="col-lg-7 col-md-6 order-1 order-md-2 d-flex justify-content-end"
         >
           <div class="p-0">
-            <div class="card-body mt-sm-5">
+            <div class="card-body mt-sm-5 animate__animated animate__zoomIn">
               <div class="lg-screen">
                 <img
                   src="/assets/images/illustrator/toverify.png"
@@ -79,9 +79,9 @@
                 class="rounded bg-white-50 border"
                 placeholder="Provide document number"
               />
-              <div class="btn-route">
+              <div class="">
                 <button type="submit" class="btn btn-primary">
-                  Coming Soon
+                  Coming Soon <Icon icon="akar-icons:arrow-right" />
                 </button>
               </div>
             </form>
