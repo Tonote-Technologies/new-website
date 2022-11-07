@@ -1,10 +1,10 @@
 <template>
-  <section class="bg-half-100 d-table w-100 bg-gradient">
+  <section class="mt-5 pt-5 d-table w-100 bg-gradient">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
           <div class="pages-heading my-1">
-            <h4 class="ptitle my-3">Plans & Pricing</h4>
+            <h4 class="ptitle mt-3">Plans & Pricing</h4>
             <div class="row justify-content-center">
               <div class="col-12 text-center">
                 <div

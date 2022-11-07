@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-half-100 d-table w-100 bg-gradient">
+  <section class="mt-5 pt-5 d-table w-100 bg-gradient">
     <div class="container-fluid py-5">
       <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
@@ -27,7 +27,7 @@
     </div>
   </div>
 
-  <section class="section">
+  <section class="mt-2">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-5 col-12">

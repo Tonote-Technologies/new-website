@@ -4,14 +4,14 @@
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <div class="section-title mb-4 pb-2 text-center">
-            <div class="title2" style="display: inline-block">
+            <h2 class="text-light">
               Receive notary requests from across the globe
-            </div>
+            </h2>
           </div>
         </div>
       </div>
 
-      <div class="row align-items-center text-center text-light">
+      <div class="row text-light text-center">
         <p>
           We are building a platform that enables convenient and compliant
           notarisations for individual or business purposes. <br />Connect with
@@ -45,13 +45,18 @@
               technologies and techniques. To stay updated, you can subscribe to
               <a href="#">our blog</a> or dive straight in and take part in our
               free
-              <a href="#">e-cademy program</a>
+              <a href="https://classroom.google.com/u/3/c/NDk5MDA1NDI0ODg3"
+                >e-cademy program</a
+              >
               where you will learn all you need to know about the future of
               notarisation.
             </p>
 
             <div class="route-link">
-              <a class="btn btn-primary p-3">
+              <a
+                href="https://classroom.google.com/u/3/c/NDk5MDA1NDI0ODg3"
+                class="btn btn-primary p-3"
+              >
                 <span>Start ToNote E-cademy course</span>
                 <span
                   ><svg

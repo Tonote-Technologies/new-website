@@ -405,7 +405,7 @@
           <form class="row">
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-uppercase"
+                <label class="control-label text-muted text-uppercase"
                   >Firstname <sup>*</sup></label
                 >
                 <input
@@ -419,7 +419,7 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-uppercase"
+                <label class="control-label text-muted text-uppercase"
                   >Lastname <sup>*</sup></label
                 >
                 <input
@@ -433,7 +433,7 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-uppercase"
+                <label class="control-label text-muted text-uppercase"
                   >Company <sup>*</sup></label
                 >
                 <input
@@ -447,7 +447,7 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-uppercase"
+                <label class="control-label text-muted text-uppercase"
                   >Email <sup>*</sup></label
                 >
                 <input
@@ -461,7 +461,7 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-uppercase"
+                <label class="control-label text-muted text-uppercase"
                   >Job Title <sup>*</sup></label
                 >
                 <input
@@ -475,7 +475,7 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-uppercase"
+                <label class="control-label text-muted text-uppercase"
                   >Phone Number <sup>*</sup></label
                 >
                 <input
@@ -490,7 +490,7 @@
 
             <div class="col-lg-12 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-uppercase"
+                <label class="control-label text-muted text-uppercase"
                   >How would you like to Partner with us <sup>*</sup></label
                 >
                 <select
@@ -508,7 +508,7 @@
 
             <div class="col-lg-12 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-uppercase text-muted"
+                <label class="control-label text-muted text-uppercase"
                   >Tell us more <sup>*</sup></label
                 >
                 <input class="form-control py-3" placeholder="" />
