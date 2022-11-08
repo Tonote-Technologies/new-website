@@ -78,14 +78,14 @@
         alt=""
       />
     </div>
-    <div class="py-2">
+    <!-- <div class="py-2">
       <img
         src="assets/images/clients/image13.png"
         class="avatar avatar-ex-sm"
         alt=""
         width="200"
       />
-    </div>
+    </div> -->
     <div class="py-2">
       <img
         src="assets/images/clients/image14.png"
