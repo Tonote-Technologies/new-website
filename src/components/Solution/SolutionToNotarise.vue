@@ -16,7 +16,7 @@
               <a
                 class="btn btn-primary py-3"
                 href="https://user.gettonote.com/register"
-                target="blank"
+                target="_blank"
               >
                 Notarise Now <Icon icon="akar-icons:arrow-right" />
               </a>

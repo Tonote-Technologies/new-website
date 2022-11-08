@@ -10,10 +10,10 @@
     </div>
     <div class="container mt-60 lg-screen">
       <div class="col-lg-12 col-md-12">
-        <a href="https://gettonote.com/page/signup.php">
+        <a href="https://gettonote.com/page/signup.php" target="_blank">
           <img
             src="assets/images/illustrator/notary.png"
-            class="img-fluid"
+            class="img-fluid animate__animated animate__zoomIn"
             alt=""
           />
         </a>
@@ -21,10 +21,10 @@
     </div>
     <div class="container mt-60 sm-screen">
       <div class="col-lg-12 col-md-12">
-        <a href="https://gettonote.com/page/signup.php">
+        <a href="https://gettonote.com/page/signup.php" target="_blank">
           <img
             src="assets/images/illustrator/notary-sm.png"
-            class="img-fluid"
+            class="img-fluid animate__animated animate__zoomIn"
             alt=""
           />
         </a>
