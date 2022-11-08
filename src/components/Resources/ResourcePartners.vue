@@ -5,7 +5,7 @@
         <a href="#partnerForm">
           <img
             src="/assets/images/illustrator/pertn.png"
-            class="img-fluid"
+            class="img-fluid animate__animated animate__zoomIn"
             alt=""
           />
         </a>
@@ -14,7 +14,7 @@
         <a href="#partnerForm">
           <img
             src="/assets/images/illustrator/partner-sm.png"
-            class="img-fluid"
+            class="img-fluid animate__animated animate__zoomIn"
             alt=""
           />
         </a>
