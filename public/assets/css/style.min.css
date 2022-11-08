@@ -641,7 +641,8 @@ p {
 	}
 
 	#topnav #navigation {
-		max-height: 400px
+		/* max-height: 400px */
+		min-height: 100vh;
 	}
 
 	#topnav .navigation-menu {
