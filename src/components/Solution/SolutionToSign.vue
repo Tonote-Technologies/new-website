@@ -83,7 +83,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>Create secure e-signatures linked to your identity.</td>
@@ -92,7 +92,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>Sign document in real time via video conference</td>
@@ -101,7 +101,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>
@@ -113,7 +113,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>Sign and send documents up to 21 times faster.</td>
@@ -122,7 +122,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>Quick and easy to set up and use.</td>
@@ -132,7 +132,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>Save costs. Save trees. Save the planet.</td>
@@ -141,7 +141,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>Audit trails ensure signatures are legally binding.</td>
@@ -150,7 +150,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>

@@ -74,7 +74,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>Close transactions faster.</td>
@@ -83,7 +83,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>Complete your notary transaction from anywhere.</td>
@@ -92,7 +92,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>
@@ -103,7 +103,7 @@
                   <td>
                     <img
                       src="/assets/images/icon/white-marker.png"
-                      width="15"
+                      width="32"
                     />
                   </td>
                   <td>

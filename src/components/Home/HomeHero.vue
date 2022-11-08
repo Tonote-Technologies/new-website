@@ -18,14 +18,16 @@
             </p>
             <div class="mt-4 lg-screen">
               <a
-                href="https://user.gettonote.com"
+                href="https://user.gettonote.com/register"
+                target="blank"
                 class="btn btn-primary mt-2 me-2"
                 >Start 14-day free trial</a
               >
             </div>
             <div class="mt-4 sm-screen">
               <a
-                href="https://user.gettonote.com"
+                href="https://user.gettonote.com/register"
+                target="blank"
                 class="btn btn-primary mt-2 me-2 w-100"
                 >Start 14-day free trial</a
               >

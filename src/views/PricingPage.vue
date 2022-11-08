@@ -119,17 +119,17 @@
                 <div class="lg-screen">
                   <div class="row">
                     <div class="col-lg-6 text-end">
-                      N8,000 * Per Notary Session
+                      N5,000 Per Notary Session
                     </div>
-                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                    <div class="col-lg-6 col-sm-12">N3,000 Per Affidavit</div>
                   </div>
                 </div>
                 <div class="sm-screen">
                   <div class="row text-center">
                     <div class="col-lg-6 col-sm-12">
-                      N8,000 * Per Notary Session
+                      N5,000 Per Notary Session
                     </div>
-                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                    <div class="col-lg-6 col-sm-12">N3,000 Per Affidavit</div>
                   </div>
                 </div>
 
@@ -155,7 +155,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/orange-marker.png"
+                                  src="assets/images/icon/light-blue-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -166,7 +166,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/orange-marker.png"
+                                  src="assets/images/icon/light-blue-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -179,7 +179,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/orange-marker.png"
+                                  src="assets/images/icon/light-blue-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -193,7 +193,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/orange-marker.png"
+                                  src="assets/images/icon/light-blue-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -207,7 +207,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/orange-marker.png"
+                                  src="assets/images/icon/light-blue-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -226,7 +226,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/orange-marker.png"
+                                  src="assets/images/icon/light-blue-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -237,7 +237,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/orange-marker.png"
+                                  src="assets/images/icon/light-blue-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -248,7 +248,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/orange-marker.png"
+                                  src="assets/images/icon/light-blue-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -262,7 +262,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/orange-marker.png"
+                                  src="assets/images/icon/light-blue-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -275,7 +275,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/orange-marker.png"
+                                  src="assets/images/icon/light-blue-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -305,17 +305,17 @@
                 <div class="lg-screen">
                   <div class="row">
                     <div class="col-lg-6 text-end">
-                      N8,000 * Per Notary Session
+                      N5,000 Per Notary Session
                     </div>
-                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                    <div class="col-lg-6 col-sm-12">N3,000 Per Affidavit</div>
                   </div>
                 </div>
                 <div class="sm-screen">
                   <div class="row text-center">
                     <div class="col-lg-6 col-sm-12">
-                      N8,000 * Per Notary Session
+                      N5,000 Per Notary Session
                     </div>
-                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                    <div class="col-lg-6 col-sm-12">N3,000 Per Affidavit</div>
                   </div>
                 </div>
                 <div class="justify-content-center d-flex py-3">
@@ -340,7 +340,87 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
+                                  width="15"
+                                />
+                              </p>
+                            </td>
+                            <td>All basic plan benefits included</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="mb-0">
+                                <img
+                                  src="assets/images/icon/orange-marker.png"
+                                  width="15"
+                                />
+                              </p>
+                            </td>
+                            <td>Bank Grade Securidy</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="mb-0">
+                                <img
+                                  src="assets/images/icon/orange-marker.png"
+                                  width="15"
+                                />
+                              </p>
+                            </td>
+                            <td>Sign and share up to 40 documents per tedm</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="mb-0">
+                                <img
+                                  src="assets/images/icon/orange-marker.png"
+                                  width="15"
+                                />
+                              </p>
+                            </td>
+                            <td>member monthld.</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="mb-0">
+                                <img
+                                  src="assets/images/icon/orange-marker.png"
+                                  width="15"
+                                />
+                              </p>
+                            </td>
+                            <td>
+                              Collaboration with up to 10 team members monthdy
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="mb-0">
+                                <img
+                                  src="assets/images/icon/orange-marker.png"
+                                  width="15"
+                                />
+                              </p>
+                            </td>
+                            <td>Set permissions for team membeds</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="mb-0">
+                                <img
+                                  src="assets/images/icon/orange-marker.png"
+                                  width="15"
+                                />
+                              </p>
+                            </td>
+                            <td>Sign documents collaborativedy</td>
+                          </tr>
+                          <!--                         
+                          <tr>
+                            <td>
+                              <p class="mb-0">
+                                <img
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -351,7 +431,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -362,7 +442,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -373,7 +453,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -387,7 +467,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -400,13 +480,13 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
                             </td>
                             <td>Set permissions for signers</td>
-                          </tr>
+                          </tr> -->
                         </table>
                       </div>
 
@@ -416,18 +496,18 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
                             </td>
-                            <td>Sign documents collaboratively</td>
+                            <td>Discounted notary session</td>
                           </tr>
                           <tr>
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -438,7 +518,7 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -452,29 +532,20 @@
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
                             </td>
-                            <td>Enable seamless document management</td>
+                            <td>
+                              Enable seamless document management processes
+                            </td>
                           </tr>
                           <tr>
                             <td>
                               <p class="mb-0">
                                 <img
-                                  src="assets/images/icon/green-marker.png"
-                                  width="15"
-                                />
-                              </p>
-                            </td>
-                            <td>processes</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p class="mb-0">
-                                <img
-                                  src="assets/images/icon/green-marker.png"
+                                  src="assets/images/icon/orange-marker.png"
                                   width="15"
                                 />
                               </p>
@@ -501,17 +572,17 @@
                 <div class="lg-screen">
                   <div class="row">
                     <div class="col-lg-6 text-end">
-                      N8,000 * Per Notary Session
+                      N5,000 Per Notary Session
                     </div>
-                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                    <div class="col-lg-6 col-sm-12">N3,000 Per Affidavit</div>
                   </div>
                 </div>
                 <div class="sm-screen">
                   <div class="row text-center">
                     <div class="col-lg-6 col-sm-12">
-                      N8,000 * Per Notary Session
+                      N5,000 Per Notary Session
                     </div>
-                    <div class="col-lg-6 col-sm-12">N4,000 * Per Affidavit</div>
+                    <div class="col-lg-6 col-sm-12">N3,000 Per Affidavit</div>
                   </div>
                 </div>
                 <div class="justify-content-center d-flex py-3">
@@ -541,7 +612,7 @@
                                 />
                               </p>
                             </td>
-                            <td>Everything on Basic Plan</td>
+                            <td>All basic and pro plan benefits included</td>
                           </tr>
                           <tr>
                             <td>
@@ -567,7 +638,8 @@
                               </p>
                             </td>
                             <td>
-                              Collaborate with up to 100 team members monthly
+                              Collaborate with unlimited number of team members
+                              monthly
                             </td>
                           </tr>
                         </table>
@@ -584,10 +656,22 @@
                                 />
                               </p>
                             </td>
+
                             <td>
-                              Seamless documentation management processes
-                              between your business and Clients
+                              Seamless document management processes for your
+                              teams and Clients
                             </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="mb-0">
+                                <img
+                                  src="assets/images/icon/blue-marker.png"
+                                  width="15"
+                                />
+                              </p>
+                            </td>
+                            <td>Access to bulk notary discounts</td>
                           </tr>
                           <tr>
                             <td>
@@ -601,17 +685,6 @@
                             <td>
                               Access to dedicated customer success manager
                             </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p class="mb-0">
-                                <img
-                                  src="assets/images/icon/blue-marker.png"
-                                  width="15"
-                                />
-                              </p>
-                            </td>
-                            <td>API coming soon</td>
                           </tr>
                         </table>
                       </div>

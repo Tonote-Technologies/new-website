@@ -293,14 +293,15 @@
 
                       <div style="font-size: 14px">
                         <p class="small-text text-light">
-                          Are you a business or organisation in any sector?
-                          Power up your business growth, customer acquisition
-                          and customer satisfaction through our strategic
-                          partnership programme. With ToNote, you have the
-                          opportunity to enrich your customer experience with
-                          our value-add technology for e-signature, secure
-                          document management, and e-notarisation for faster
-                          transaction closings and revenue generation.
+                          Drive business growth, customer acquisition and
+                          customer satisfaction through our strategic
+                          partnership programme.
+                          <br />
+                          <br />
+                          Partnering with ToNote enriches your customer
+                          experience. Offer your customers an easy way to sign,
+                          notarise and manage documents for frictionless
+                          compliance processes and faster transaction closings.
                         </p>
 
                         <h2 class="text-light py-2">Benefits</h2>
@@ -312,27 +313,9 @@
                                 width="30"
                               />
                             </td>
-                            <td>50% discount for Notarization services</td>
-                          </tr>
-                          <tr>
                             <td>
-                              <img
-                                src="/assets/images/icon/white-marker.png"
-                                width="30"
-                              />
-                            </td>
-                            <td>20% discount on Affidavits</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <img
-                                src="/assets/images/icon/white-marker.png"
-                                width="30"
-                              />
-                            </td>
-                            <td>
-                              20% discount on the Subscription to e-sign and
-                              document management platform
+                              20% discount on all subscriptions and transaction
+                              fees for your customers.
                             </td>
                           </tr>
                           <tr>
@@ -342,11 +325,18 @@
                                 width="30"
                               />
                             </td>
+                            <td>Optional revenue share model.</td>
+                          </tr>
+                          <tr>
                             <td>
-                              Per a particular client, 20% discount on
-                              subsequent notarisations, affidavits, and platform
-                              subscriptions valid for 12 months from their first
-                              transaction.
+                              <img
+                                src="/assets/images/icon/white-marker.png"
+                                width="30"
+                              />
+                            </td>
+                            <td>
+                              Optimise business awareness and growth drive via
+                              co-branding initiatives.
                             </td>
                           </tr>
 
@@ -357,7 +347,7 @@
                                   <button
                                     class="btn btn-outline-white fw-normal"
                                   >
-                                    Become a Partner
+                                    Become a strategic Partner
                                   </button>
                                 </a>
                               </div>
@@ -405,12 +395,12 @@
           <form class="row">
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-muted text-uppercase"
+                <label class="control-label text-uppercase"
                   >Firstname <sup>*</sup></label
                 >
                 <input
                   type="text"
-                  class="form-control py-3"
+                  class="form-control text-muted py-3"
                   name="firstname"
                   required
                   placeholder="Enter your First name"
@@ -419,12 +409,12 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-muted text-uppercase"
+                <label class="control-label text-uppercase"
                   >Lastname <sup>*</sup></label
                 >
                 <input
                   type="text"
-                  class="form-control py-3"
+                  class="form-control text-muted py-3"
                   name="lastname"
                   required
                   placeholder="Enter your Last name"
@@ -433,12 +423,12 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-muted text-uppercase"
+                <label class="control-label text-uppercase"
                   >Company <sup>*</sup></label
                 >
                 <input
                   type="text"
-                  class="form-control py-3"
+                  class="form-control text-muted py-3"
                   name="company"
                   required
                   placeholder="Enter your company's name"
@@ -447,12 +437,12 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-muted text-uppercase"
+                <label class="control-label text-uppercase"
                   >Email <sup>*</sup></label
                 >
                 <input
                   type="text"
-                  class="form-control py-3"
+                  class="form-control text-muted py-3"
                   name="email"
                   required
                   placeholder="Enter your email"
@@ -461,12 +451,12 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-muted text-uppercase"
+                <label class="control-label text-uppercase"
                   >Job Title <sup>*</sup></label
                 >
                 <input
                   type="text"
-                  class="form-control py-3"
+                  class="form-control text-muted py-3"
                   name="job_title"
                   required
                   placeholder="Enter your job title"
@@ -475,12 +465,12 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-muted text-uppercase"
+                <label class="control-label text-uppercase"
                   >Phone Number <sup>*</sup></label
                 >
                 <input
                   type="text"
-                  class="form-control py-3"
+                  class="form-control text-muted py-3"
                   name="phonr"
                   required
                   placeholder="Enter your phone number"
@@ -490,11 +480,11 @@
 
             <div class="col-lg-12 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-muted text-uppercase"
+                <label class="control-label text-uppercase"
                   >How would you like to Partner with us <sup>*</sup></label
                 >
                 <select
-                  class="form-control py-3"
+                  class="form-control text-muted py-3"
                   required
                   placeholder="Enter your"
                 >
@@ -508,10 +498,10 @@
 
             <div class="col-lg-12 col-md-12 col-sm-12">
               <div class="form-group py-2">
-                <label class="control-label text-muted text-uppercase"
+                <label class="control-label text-uppercase"
                   >Tell us more <sup>*</sup></label
                 >
-                <input class="form-control py-3" placeholder="" />
+                <input class="form-control text-muted py-3" placeholder="" />
               </div>
             </div>
 

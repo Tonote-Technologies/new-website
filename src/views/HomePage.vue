@@ -18,9 +18,7 @@
             absolutely free and great for personal use.
           </p>
           <div class="route-link">
-            <a href="https://user.gettonote.com"
-              >Get Started<i class="mdi mdi-arrow-right me-2"></i>
-            </a>
+            <a href="s">Get Started<i class="mdi mdi-arrow-right me-2"></i> </a>
           </div>
         </div>
       </div>
@@ -83,9 +81,7 @@
             essential documentation.
           </p>
           <div class="route-link">
-            <a href="https://user.gettonote.com"
-              >Get Started<i class="mdi mdi-arrow-right me-2"></i>
-            </a>
+            <a href="s">Get Started<i class="mdi mdi-arrow-right me-2"></i> </a>
           </div>
         </div>
       </div>
@@ -106,7 +102,7 @@
             in record time. Closing transactions has never been this easy.
           </p>
           <div class="route-link">
-            <a href="https://user.gettonote.com"
+            <a href="https://user.gettonote.com/register" target="blank"
               >Get Started<i class="mdi mdi-arrow-right me-2"></i>
             </a>
           </div>
@@ -152,7 +148,7 @@
             conferencing features.
           </p>
           <div class="route-link">
-            <a href="https://user.gettonote.com"
+            <a href="sster"
               >Get Started<i class="mdi mdi-arrow-right me-2"></i>
             </a>
           </div>
@@ -180,7 +176,7 @@
     </template>
   </HomePlan>
 
-  <section class="section w-100 bg-half-100 cta">
+  <section class="bg-half-50 w-100 cta">
     <div class="container pt-5">
       <div class="background">
         <div class="row align-items-center p-5 high">

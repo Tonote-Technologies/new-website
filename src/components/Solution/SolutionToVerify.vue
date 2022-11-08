@@ -1,5 +1,5 @@
 <template>
-  <section class="section bg-gradient">
+  <section class="section bg-gradient" id="toverify">
     <div class="container mt-60 mt-4">
       <div class="row align-items-center">
         <div
@@ -8,7 +8,8 @@
           <div class="section-title animate__animated animate__slideInLeft">
             <h2 class="page-header">ToVerify</h2>
             <p class="page-subheader">
-              Enter your email below and get early access when we launch.
+              Enter your email below and get early access when we launch this
+              feature.
             </p>
 
             <form class="row">
@@ -80,7 +81,7 @@
                 placeholder="Provide document number"
               />
               <div class="">
-                <button type="submit" class="btn btn-primary">
+                <button type="button" class="btn btn-primary">
                   Coming Soon <Icon icon="akar-icons:arrow-right" />
                 </button>
               </div>
@@ -100,7 +101,7 @@
               </div>
 
               <div class="my-2">
-                <button type="submit" class="btn btn-light w-100">
+                <button type="button" class="btn btn-primary">
                   Coming Soon <Icon icon="akar-icons:arrow-right" />
                 </button>
               </div>
@@ -142,9 +143,9 @@
           </div>
 
           <div class="text-center py-4">
-            <button class="btn btn-outline-white fw-normal">
+            <a href="#toverify" class="btn btn-outline-white fw-normal">
               Notify me <Icon icon="akar-icons:arrow-right" />
-            </button>
+            </a>
           </div>
         </div>
       </div>
