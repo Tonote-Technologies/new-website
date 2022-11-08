@@ -50,7 +50,7 @@
       <div class="col-lg-7 col-md-6 col-12 order-1 order-lg-0 p-0">
         <div class="card">
           <div class="card-body">
-            <img
+            <!-- <img
               src="assets/images/illustrator/pro.png"
               width=""
               class="img-fluid lg-screen"
@@ -60,6 +60,12 @@
               src="assets/images/illustrator/asset-sm-2.png"
               width=""
               class="img-fluid sm-screen"
+              alt=""
+            /> -->
+            <img
+              src="assets/images/illustrator/pro-2.png"
+              width=""
+              class="img-fluid"
               alt=""
             />
           </div>
@@ -148,7 +154,7 @@
             conferencing features.
           </p>
           <div class="route-link">
-            <a href="sster"
+            <a href="https://user.gettonote.com/register" target="blank"
               >Get Started<i class="mdi mdi-arrow-right me-2"></i>
             </a>
           </div>
@@ -159,7 +165,7 @@
       <div class="col-lg-7 col-md-6 col-12 order-1 order-lg-0 p-0">
         <div class="card">
           <div class="card-body">
-            <img
+            <!-- <img
               src="assets/images/illustrator/asset4.png"
               class="img-fluid lg-screen"
               alt=""
@@ -168,6 +174,11 @@
               src="assets/images/illustrator/asset-sm-4.png"
               width=""
               class="img-fluid sm-screen"
+              alt=""
+            /> -->
+            <img
+              src="assets/images/illustrator/asset4-plus.png"
+              class="img-fluid"
               alt=""
             />
           </div>
