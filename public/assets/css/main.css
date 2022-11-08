@@ -369,13 +369,11 @@
 	}
 	.hero-header {
 		font-family: 'Poppins';
-		font-style: normal;
 		font-weight: 600;
 		font-size: 35px;
 		line-height: 48px;
-		
-		/* text-align: center; */
-		margin-top: 3rem;
+		margin-top: 6rem;
+		color: #000;
 	}
 	.hero-img{
 		margin-top: 4rem;
