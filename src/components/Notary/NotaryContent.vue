@@ -23,7 +23,7 @@
 
         <div class="btn-route">
           <a
-            href="https://gettonote.com/signup.php"
+            href="https://gettonote.com/page/signup.php"
             class="btn btn-light my-2 fw-normal"
             >Get Started</a
           >
