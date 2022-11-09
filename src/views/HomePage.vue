@@ -186,6 +186,14 @@
       </div>
     </template>
   </HomePlan>
+  <div class="container-fluid bg-light py-5">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-1">Clients Testimonials</div>
+        <div class="col-11"><TestimonialSlide /></div>
+      </div>
+    </div>
+  </div>
 
   <section class="bg-half-50 w-100 cta">
     <div class="container pt-5">
@@ -222,6 +230,7 @@ import HomeHero from "@/components/Home/HomeHero.vue";
 import HomePartners from "../components/Home/HomePartners.vue";
 import HomeServices from "@/components/Home/HomeServices.vue";
 import HomePlan from "@/components/Home/HomePlan.vue";
+import TestimonialSlide from "@/components/Home/TestimonialSlide.vue";
 </script>
 
 <style scoped></style>
