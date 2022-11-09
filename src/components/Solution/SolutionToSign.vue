@@ -28,20 +28,20 @@
         >
           <div class="p-0">
             <div class="card-body mt-sm-5 animate__animated animate__zoomIn">
-              <div class="img-fluid lg-screen">
+              <div class="img-fluid">
                 <img
                   src="/assets/images/illustrator/tosign.png"
                   class="img-fluid"
                   alt=""
                 />
               </div>
-              <div class="sm-screen">
+              <!-- <div class="sm-screen">
                 <img
                   src="/assets/images/illustrator/tosign-sm.png"
                   class="img-fluid"
                   alt=""
                 />
-              </div>
+              </div> -->
             </div>
           </div>
         </div>

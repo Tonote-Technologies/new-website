@@ -50,7 +50,7 @@
       <div class="col-lg-7 col-md-6 col-12 order-1 order-lg-0 p-0">
         <div class="card">
           <div class="card-body">
-            <!-- <img
+            <img
               src="assets/images/illustrator/pro.png"
               width=""
               class="img-fluid lg-screen"
@@ -61,13 +61,13 @@
               width=""
               class="img-fluid sm-screen"
               alt=""
-            /> -->
-            <img
+            />
+            <!-- <img
               src="assets/images/illustrator/pro-2.png"
               width=""
               class="img-fluid"
               alt=""
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -165,7 +165,7 @@
       <div class="col-lg-7 col-md-6 col-12 order-1 order-lg-0 p-0">
         <div class="card">
           <div class="card-body">
-            <!-- <img
+            <img
               src="assets/images/illustrator/asset4.png"
               class="img-fluid lg-screen"
               alt=""
@@ -175,12 +175,12 @@
               width=""
               class="img-fluid sm-screen"
               alt=""
-            /> -->
-            <img
+            />
+            <!-- <img
               src="assets/images/illustrator/asset4-plus.png"
               class="img-fluid"
               alt=""
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -189,8 +189,8 @@
   <div class="container-fluid bg-light py-5">
     <div class="container py-5">
       <div class="row align-items-center">
-        <div class="col-1">Clients Testimonials</div>
-        <div class="col-11"><TestimonialSlide /></div>
+        <div class="col-lg-1 col-sm-2">Clients Testimonials</div>
+        <div class="col-lg-11 col-sm-10"><TestimonialSlide /></div>
       </div>
     </div>
   </div>

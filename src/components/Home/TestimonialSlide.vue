@@ -122,11 +122,11 @@ const optionsCounnt = {
     },
 
     767: {
-      items: 3,
+      items: 2,
     },
 
     320: {
-      items: 2,
+      items: 1,
     },
   },
 
