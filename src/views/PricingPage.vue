@@ -119,7 +119,7 @@
                 <div class="lg-screen">
                   <div class="row">
                     <div class="col-lg-6 text-end">
-                      N5,000 Per Notary Session
+                      N8,000 Per Notary Session
                     </div>
                     <div class="col-lg-6 col-sm-12">N3,000 Per Affidavit</div>
                   </div>
@@ -127,7 +127,7 @@
                 <div class="sm-screen">
                   <div class="row text-center">
                     <div class="col-lg-6 col-sm-12">
-                      N5,000 Per Notary Session
+                      N4,000 Per Notary Session
                     </div>
                     <div class="col-lg-6 col-sm-12">N3,000 Per Affidavit</div>
                   </div>
@@ -198,10 +198,7 @@
                                 />
                               </p>
                             </td>
-                            <td>
-                              Securely sign and share unlimited number of
-                              notarised documents with third parties
-                            </td>
+                            <td>Schedule unlimited notary sessions</td>
                           </tr>
                           <tr>
                             <td>
@@ -213,7 +210,7 @@
                               </p>
                             </td>
                             <td>
-                              Securely sign and share 10 documents monthly at no
+                              Securely sign and share 5 documents monthly at no
                               cost
                             </td>
                           </tr>
@@ -233,7 +230,7 @@
                             </td>
                             <td>No more paper, printing or transportation</td>
                           </tr>
-                          <tr>
+                          <!-- <tr>
                             <td>
                               <p class="mb-0">
                                 <img
@@ -243,7 +240,7 @@
                               </p>
                             </td>
                             <td>Audit trail for documentation management</td>
-                          </tr>
+                          </tr> -->
                           <tr>
                             <td>
                               <p class="mb-0">
@@ -356,97 +353,6 @@
                                 />
                               </p>
                             </td>
-                            <td>Bank Grade Securidy</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p class="mb-0">
-                                <img
-                                  src="assets/images/icon/orange-marker.png"
-                                  width="15"
-                                />
-                              </p>
-                            </td>
-                            <td>Sign and share up to 40 documents per tedm</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p class="mb-0">
-                                <img
-                                  src="assets/images/icon/orange-marker.png"
-                                  width="15"
-                                />
-                              </p>
-                            </td>
-                            <td>member monthld.</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p class="mb-0">
-                                <img
-                                  src="assets/images/icon/orange-marker.png"
-                                  width="15"
-                                />
-                              </p>
-                            </td>
-                            <td>
-                              Collaboration with up to 10 team members monthdy
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p class="mb-0">
-                                <img
-                                  src="assets/images/icon/orange-marker.png"
-                                  width="15"
-                                />
-                              </p>
-                            </td>
-                            <td>Set permissions for team membeds</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p class="mb-0">
-                                <img
-                                  src="assets/images/icon/orange-marker.png"
-                                  width="15"
-                                />
-                              </p>
-                            </td>
-                            <td>Sign documents collaborativedy</td>
-                          </tr>
-                          <!--                         
-                          <tr>
-                            <td>
-                              <p class="mb-0">
-                                <img
-                                  src="assets/images/icon/orange-marker.png"
-                                  width="15"
-                                />
-                              </p>
-                            </td>
-                            <td>Everything on Basic Plan</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p class="mb-0">
-                                <img
-                                  src="assets/images/icon/orange-marker.png"
-                                  width="15"
-                                />
-                              </p>
-                            </td>
-                            <td>Sign a Document</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p class="mb-0">
-                                <img
-                                  src="assets/images/icon/orange-marker.png"
-                                  width="15"
-                                />
-                              </p>
-                            </td>
                             <td>Bank Grade Security</td>
                           </tr>
                           <tr>
@@ -459,9 +365,21 @@
                               </p>
                             </td>
                             <td>
-                              E-sign and share up to 40 documents per team
-                              member monthly.
+                              Sign and share up to 40 documents per team member
+                              monthly.
                             </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <p class="mb-0">
+                                <img
+                                  src="assets/images/icon/orange-marker.png"
+                                  width="15"
+                                />
+                              </p>
+                            </td>
+                            <td>Invite 5 team members to your workspace</td>
                           </tr>
                           <tr>
                             <td>
@@ -472,9 +390,7 @@
                                 />
                               </p>
                             </td>
-                            <td>
-                              Collaboration with up to 10 team members monthly
-                            </td>
+                            <td>Set permissions for team members</td>
                           </tr>
                           <tr>
                             <td>
@@ -485,8 +401,8 @@
                                 />
                               </p>
                             </td>
-                            <td>Set permissions for signers</td>
-                          </tr> -->
+                            <td>Sign documents collaboratively</td>
+                          </tr>
                         </table>
                       </div>
 
@@ -501,7 +417,7 @@
                                 />
                               </p>
                             </td>
-                            <td>Discounted notary session</td>
+                            <td>Discounted notary sessions</td>
                           </tr>
                           <tr>
                             <td>
