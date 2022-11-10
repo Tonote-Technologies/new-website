@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkToNote"]=self["webpackChunkToNote"]||[]).push([[676],{6840:function(e,t,u){u.r(t),u.d(t,{default:function(){return s}});var n=u(3396),r=u(1544),o={__name:"SolutionPage",setup(e){return(e,t)=>{const u=(0,n.up)("router-view");return(0,n.wg)(),(0,n.j4)(r.Z,null,{default:(0,n.w5)((()=>[(0,n.Wm)(u)])),_:1})}}};const a=o;var s=a}}]);
+//# sourceMappingURL=solution-page.065ee874.js.map

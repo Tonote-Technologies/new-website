@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkToNote"]=self["webpackChunkToNote"]||[]).push([[109],{1343:function(e,u,t){t.r(u),t.d(u,{default:function(){return a}});var n=t(3396),r=t(1544),o={__name:"ResourcesPage",setup(e){return(e,u)=>{const t=(0,n.up)("router-view");return(0,n.wg)(),(0,n.j4)(r.Z,null,{default:(0,n.w5)((()=>[(0,n.Wm)(t)])),_:1})}}};const s=o;var a=s}}]);
+//# sourceMappingURL=resource-page.b6298e99.js.map
