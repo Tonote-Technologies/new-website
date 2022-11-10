@@ -121,15 +121,15 @@
                     <div class="col-lg-6 text-end">
                       N8,000 Per Notary Session
                     </div>
-                    <div class="col-lg-6 col-sm-12">N3,000 Per Affidavit</div>
+                    <div class="col-lg-6 col-sm-12">N4,000 Per Affidavit</div>
                   </div>
                 </div>
                 <div class="sm-screen">
                   <div class="row text-center">
                     <div class="col-lg-6 col-sm-12">
-                      N4,000 Per Notary Session
+                      N8,000 Per Notary Session
                     </div>
-                    <div class="col-lg-6 col-sm-12">N3,000 Per Affidavit</div>
+                    <div class="col-lg-6 col-sm-12">N4,000 Per Affidavit</div>
                   </div>
                 </div>
 
